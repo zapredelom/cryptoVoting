@@ -1,0 +1,429 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_MANAGER_H	AppManager.h	7;"	d
+AUTHENTICATION_WINDOW_H	AuthenticationWindow.h	2;"	d
+AppManager	AppManager.cpp	/^AppManager::AppManager(QObject *parrent) :$/;"	f	class:E_voting::AppManager	signature:(QObject *parrent)
+AppManager	AppManager.h	/^    AppManager(QObject * parrent = 0);$/;"	p	class:E_voting::AppManager	access:public	signature:(QObject * parrent = 0)
+AppManager	AppManager.h	/^class AppManager :public QObject$/;"	c	namespace:E_voting	inherits:QObject
+AuthenticationWindow	AuthenticationWindow.h	/^class AuthenticationWindow : QWidget$/;"	c	inherits:QWidget
+AuthenticationWindow::m_IDNum	AuthenticationWindow.h	/^    QLineEdit * m_IDNum;$/;"	m	class:AuthenticationWindow	access:public
+AuthenticationWindow::m_confirm	AuthenticationWindow.h	/^    QPushButton* m_confirm;$/;"	m	class:AuthenticationWindow	access:public
+CANDIDATE_H	Candidate.h	6;"	d
+CANDITATES_H	Canditates.h	9;"	d
+CCFLAGS	Makefile	/^CCFLAGS 	= -Wall -std=c++0x -g --static $/;"	m
+CLOCK_DIAL_H	ClockDial.h	5;"	d
+Candidate	Candidate.cpp	/^Candidate::Candidate(const QString & text,c_value_type num,QWidget* parrent) : $/;"	f	class:E_voting::Candidate	signature:(const QString & text,c_value_type num,QWidget* parrent)
+Candidate	Candidate.h	/^    Candidate(const QString &,c_value_type num,QWidget* parrent=0);$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString &,c_value_type num,QWidget* parrent=0)
+Candidate	Candidate.h	/^class Candidate :$/;"	c	namespace:E_voting	inherits:QLabel
+Candidates	Canditates.cpp	/^Candidates::Candidates(QWidget* parrent):$/;"	f	class:E_voting::Candidates	signature:(QWidget* parrent)
+Candidates	Canditates.h	/^    Candidates(QWidget* parrent = 0);$/;"	p	class:E_voting::Candidates	access:public	signature:(QWidget* parrent = 0)
+Candidates	Canditates.h	/^class Candidates : public QWidget$/;"	c	namespace:E_voting	inherits:QWidget
+ClockDial	ClockDial.cpp	/^ClockDial::ClockDial(size_t op_low,size_t op_high):QwtDial(0)$/;"	f	class:E_voting::ClockDial	signature:(size_t op_low,size_t op_high)
+ClockDial	ClockDial.h	/^    ClockDial(size_t , size_t);$/;"	p	class:E_voting::ClockDial	access:public	signature:(size_t , size_t)
+ClockDial	ClockDial.h	/^class ClockDial : public QwtDial$/;"	c	namespace:E_voting	inherits:QwtDial
+E_voting	AppManager.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	AppManager.h	/^namespace E_voting$/;"	n
+E_voting	Candidate.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	Candidate.h	/^namespace E_voting$/;"	n
+E_voting	Canditates.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	Canditates.h	/^namespace E_voting$/;"	n
+E_voting	ClockDial.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	ClockDial.h	/^namespace E_voting {$/;"	n
+E_voting	MainWindow.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	MainWindow.h	/^namespace E_voting$/;"	n
+E_voting	Number.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	Number.h	/^namespace E_voting$/;"	n
+E_voting	Numbers.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	Numbers.h	/^namespace E_voting$/;"	n
+E_voting	SetUpWindow.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	SetUpWindow.h	/^namespace E_voting$/;"	n
+E_voting::AppManager	AppManager.h	/^class AppManager :public QObject$/;"	c	namespace:E_voting	inherits:QObject
+E_voting::AppManager::AppManager	AppManager.cpp	/^AppManager::AppManager(QObject *parrent) :$/;"	f	class:E_voting::AppManager	signature:(QObject *parrent)
+E_voting::AppManager::AppManager	AppManager.h	/^    AppManager(QObject * parrent = 0);$/;"	p	class:E_voting::AppManager	access:public	signature:(QObject * parrent = 0)
+E_voting::AppManager::addCandidate	AppManager.cpp	/^void AppManager::addCandidate(const QString& op)$/;"	f	class:E_voting::AppManager	signature:(const QString& op)
+E_voting::AppManager::addCandidate	AppManager.h	/^    void addCandidate(const QString&);$/;"	p	class:E_voting::AppManager	access:private	signature:(const QString&)
+E_voting::AppManager::chipherVector	AppManager.h	/^    QVector<QPair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> > chipherVector;$/;"	m	class:E_voting::AppManager	access:private
+E_voting::AppManager::encryptNumbers	AppManager.cpp	/^QVector<QPair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> > AppManager::encryptNumbers(const QVector<int>& op)$/;"	f	class:E_voting::AppManager	signature:(const QVector<int>& op)
+E_voting::AppManager::encryptNumbers	AppManager.h	/^    QVector<QPair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> > encryptNumbers(const QVector<int>&numbersToEncrypt);$/;"	p	class:E_voting::AppManager	access:public	signature:(const QVector<int>&numbersToEncrypt)
+E_voting::AppManager::exec	AppManager.cpp	/^void AppManager::exec()$/;"	f	class:E_voting::AppManager	signature:()
+E_voting::AppManager::exec	AppManager.h	/^    void exec();$/;"	p	class:E_voting::AppManager	access:public	signature:()
+E_voting::AppManager::getSelectedNumber	AppManager.cpp	/^void AppManager::getSelectedNumber(const int)$/;"	f	class:E_voting::AppManager	signature:(const int)
+E_voting::AppManager::getSelectedNumber	AppManager.h	/^    void getSelectedNumber(const int);$/;"	p	class:E_voting::AppManager	access:private	signature:(const int)
+E_voting::AppManager::handleCandidateChecked	AppManager.cpp	/^void AppManager:: handleCandidateChecked(const Candidate* op)$/;"	f	class:E_voting::AppManager	signature:(const Candidate* op)
+E_voting::AppManager::handleCandidateChecked	AppManager.h	/^    void handleCandidateChecked(const Candidate*);$/;"	p	class:E_voting::AppManager	access:private	signature:(const Candidate*)
+E_voting::AppManager::handleNumSelected	AppManager.cpp	/^void AppManager::handleNumSelected()$/;"	f	class:E_voting::AppManager	signature:()
+E_voting::AppManager::handleNumSelected	AppManager.h	/^    void handleNumSelected();$/;"	p	class:E_voting::AppManager	access:private	signature:()
+E_voting::AppManager::m_encrypter	AppManager.h	/^    ElGamalEncrypter* m_encrypter;$/;"	m	class:E_voting::AppManager	access:private
+E_voting::AppManager::m_mainWindow	AppManager.h	/^    MainWindow* m_mainWindow;$/;"	m	class:E_voting::AppManager	access:private
+E_voting::AppManager::m_setUpWindow	AppManager.h	/^    SetUpWindow* m_setUpWindow;$/;"	m	class:E_voting::AppManager	access:private
+E_voting::AppManager::setBasePrime	AppManager.cpp	/^void AppManager::setBasePrime(const QString& op)$/;"	f	class:E_voting::AppManager	signature:(const QString& op)
+E_voting::AppManager::setBasePrime	AppManager.h	/^    void setBasePrime(const QString&);$/;"	p	class:E_voting::AppManager	access:private	signature:(const QString&)
+E_voting::AppManager::setGenerator	AppManager.cpp	/^void AppManager::setGenerator(const QString& op)$/;"	f	class:E_voting::AppManager	signature:(const QString& op)
+E_voting::AppManager::setGenerator	AppManager.h	/^    void setGenerator(const QString &);$/;"	p	class:E_voting::AppManager	access:private	signature:(const QString &)
+E_voting::AppManager::setNumbersCount	AppManager.cpp	/^void AppManager::setNumbersCount(int op)$/;"	f	class:E_voting::AppManager	signature:(int op)
+E_voting::AppManager::setNumbersCount	AppManager.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::AppManager	access:private	signature:(int)
+E_voting::AppManager::setUpEnded	AppManager.cpp	/^void AppManager::setUpEnded()$/;"	f	class:E_voting::AppManager	signature:()
+E_voting::AppManager::setUpEnded	AppManager.h	/^    void setUpEnded();$/;"	p	class:E_voting::AppManager	access:private	signature:()
+E_voting::AppManager::startVoting	AppManager.cpp	/^void AppManager::startVoting()$/;"	f	class:E_voting::AppManager	signature:()
+E_voting::AppManager::startVoting	AppManager.h	/^    void startVoting();$/;"	p	class:E_voting::AppManager	access:private	signature:()
+E_voting::Candidate	Candidate.h	/^class Candidate :$/;"	c	namespace:E_voting	inherits:QLabel
+E_voting::Candidate::Candidate	Candidate.cpp	/^Candidate::Candidate(const QString & text,c_value_type num,QWidget* parrent) : $/;"	f	class:E_voting::Candidate	signature:(const QString & text,c_value_type num,QWidget* parrent)
+E_voting::Candidate::Candidate	Candidate.h	/^    Candidate(const QString &,c_value_type num,QWidget* parrent=0);$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString &,c_value_type num,QWidget* parrent=0)
+E_voting::Candidate::getNumber	Candidate.cpp	/^c_value_type Candidate::getNumber() const$/;"	f	class:E_voting::Candidate	signature:() const
+E_voting::Candidate::getNumber	Candidate.h	/^    c_value_type getNumber()const;$/;"	p	class:E_voting::Candidate	access:public	signature:() const
+E_voting::Candidate::getText	Candidate.cpp	/^const QString Candidate::getText() const$/;"	f	class:E_voting::Candidate	signature:() const
+E_voting::Candidate::getText	Candidate.h	/^    const QString getText() const;$/;"	p	class:E_voting::Candidate	access:public	signature:() const
+E_voting::Candidate::isChaked	Candidate.h	/^    void isChaked(const QString &,c_value_type);$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString &,c_value_type)
+E_voting::Candidate::isChanged	Candidate.cpp	/^void Candidate::isChanged(bool status)$/;"	f	class:E_voting::Candidate	signature:(bool status)
+E_voting::Candidate::isChanged	Candidate.h	/^    void isChanged(bool status);$/;"	p	class:E_voting::Candidate	access:public	signature:(bool status)
+E_voting::Candidate::isUnChaked	Candidate.h	/^    void isUnChaked(const QString&,c_value_type);$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString&,c_value_type)
+E_voting::Candidate::m_candidate	Candidate.h	/^    QLabel       *m_candidate;   $/;"	m	class:E_voting::Candidate	access:private
+E_voting::Candidate::m_chois	Candidate.h	/^    QCheckBox    *m_chois;$/;"	m	class:E_voting::Candidate	access:private
+E_voting::Candidate::m_layout	Candidate.h	/^    QHBoxLayout  *m_layout;$/;"	m	class:E_voting::Candidate	access:private
+E_voting::Candidate::m_number	Candidate.h	/^    c_value_type m_number;$/;"	m	class:E_voting::Candidate	access:private
+E_voting::Candidate::setChecked	Candidate.cpp	/^void Candidate::setChecked(bool op)$/;"	f	class:E_voting::Candidate	signature:(bool op)
+E_voting::Candidate::setChecked	Candidate.h	/^    void setChecked(bool op);$/;"	p	class:E_voting::Candidate	access:public	signature:(bool op)
+E_voting::Candidate::setNumber	Candidate.cpp	/^void Candidate::setNumber(c_value_type n)$/;"	f	class:E_voting::Candidate	signature:(c_value_type n)
+E_voting::Candidate::setNumber	Candidate.h	/^    void setNumber(c_value_type);$/;"	p	class:E_voting::Candidate	access:public	signature:(c_value_type)
+E_voting::Candidate::setText	Candidate.cpp	/^void Candidate::setText(const QString & txt)$/;"	f	class:E_voting::Candidate	signature:(const QString & txt)
+E_voting::Candidate::setText	Candidate.h	/^    void setText(const QString & str) ;$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString & str)
+E_voting::Candidates	Canditates.h	/^class Candidates : public QWidget$/;"	c	namespace:E_voting	inherits:QWidget
+E_voting::Candidates::Candidates	Canditates.cpp	/^Candidates::Candidates(QWidget* parrent):$/;"	f	class:E_voting::Candidates	signature:(QWidget* parrent)
+E_voting::Candidates::Candidates	Canditates.h	/^    Candidates(QWidget* parrent = 0);$/;"	p	class:E_voting::Candidates	access:public	signature:(QWidget* parrent = 0)
+E_voting::Candidates::addCandidate	Canditates.cpp	/^void Candidates::addCandidate(Candidate * op_candidate)$/;"	f	class:E_voting::Candidates	signature:(Candidate * op_candidate)
+E_voting::Candidates::addCandidate	Canditates.cpp	/^void Candidates::addCandidate(const QString & op_candidate)$/;"	f	class:E_voting::Candidates	signature:(const QString & op_candidate)
+E_voting::Candidates::addCandidate	Canditates.h	/^    void addCandidate(Candidate * );$/;"	p	class:E_voting::Candidates	access:public	signature:(Candidate * )
+E_voting::Candidates::addCandidate	Canditates.h	/^    void addCandidate(const QString &);$/;"	p	class:E_voting::Candidates	access:public	signature:(const QString &)
+E_voting::Candidates::candidatSelected	Canditates.h	/^    void candidatSelected(const Candidate * );$/;"	p	class:E_voting::Candidates	access:public	signature:(const Candidate * )
+E_voting::Candidates::enable	Canditates.h	/^    void enable(bool );$/;"	p	class:E_voting::Candidates	access:public	signature:(bool )
+E_voting::Candidates::findCandidate	Canditates.cpp	/^Candidate* Candidates::findCandidate(const QString& op)$/;"	f	class:E_voting::Candidates	signature:(const QString& op)
+E_voting::Candidates::findCandidate	Canditates.h	/^    Candidate* findCandidate(const QString & op);$/;"	p	class:E_voting::Candidates	access:private	signature:(const QString & op)
+E_voting::Candidates::freezCandidates	Canditates.h	/^    void freezCandidates();$/;"	p	class:E_voting::Candidates	access:public	signature:()
+E_voting::Candidates::getCount	Canditates.cpp	/^int Candidates::getCount()$/;"	f	class:E_voting::Candidates	signature:()
+E_voting::Candidates::getCount	Canditates.h	/^    int getCount();$/;"	p	class:E_voting::Candidates	access:public	signature:()
+E_voting::Candidates::m_candidates	Canditates.h	/^    QVector < Candidate* > m_candidates;$/;"	m	class:E_voting::Candidates	access:private
+E_voting::Candidates::m_confirmButton	Canditates.h	/^    QPushButton * m_confirmButton;$/;"	m	class:E_voting::Candidates	access:private
+E_voting::Candidates::m_layout	Canditates.h	/^    QVBoxLayout * m_layout;$/;"	m	class:E_voting::Candidates	access:private
+E_voting::Candidates::removeCandidate	Canditates.cpp	/^void Candidates::removeCandidate(const Candidate & op_toRemove)$/;"	f	class:E_voting::Candidates	signature:(const Candidate & op_toRemove)
+E_voting::Candidates::removeCandidate	Canditates.h	/^    void removeCandidate(const Candidate &);$/;"	p	class:E_voting::Candidates	access:public	signature:(const Candidate &)
+E_voting::Candidates::selectCandidate	Canditates.cpp	/^void Candidates::selectCandidate(const QString& op_candidate)$/;"	f	class:E_voting::Candidates	signature:(const QString& op_candidate)
+E_voting::Candidates::selectCandidate	Canditates.h	/^    void selectCandidate(const QString&);$/;"	p	class:E_voting::Candidates	access:public	signature:(const QString&)
+E_voting::Candidates::unSelectCandidate	Canditates.cpp	/^void Candidates::unSelectCandidate(const QString& op_candidate)$/;"	f	class:E_voting::Candidates	signature:(const QString& op_candidate)
+E_voting::Candidates::unSelectCandidate	Canditates.h	/^    void unSelectCandidate(const QString&);$/;"	p	class:E_voting::Candidates	access:public	signature:(const QString&)
+E_voting::ClockDial	ClockDial.h	/^class ClockDial : public QwtDial$/;"	c	namespace:E_voting	inherits:QwtDial
+E_voting::ClockDial::ClockDial	ClockDial.cpp	/^ClockDial::ClockDial(size_t op_low,size_t op_high):QwtDial(0)$/;"	f	class:E_voting::ClockDial	signature:(size_t op_low,size_t op_high)
+E_voting::ClockDial::ClockDial	ClockDial.h	/^    ClockDial(size_t , size_t);$/;"	p	class:E_voting::ClockDial	access:public	signature:(size_t , size_t)
+E_voting::ClockDial::getValue	ClockDial.cpp	/^size_t ClockDial::getValue() const$/;"	f	class:E_voting::ClockDial	signature:() const
+E_voting::ClockDial::m_candidatesCount	ClockDial.h	/^    size_t m_candidatesCount;$/;"	m	class:E_voting::ClockDial	access:private
+E_voting::ClockDial::needle	ClockDial.h	/^    QwtDialSimpleNeedle *needle;$/;"	m	class:E_voting::ClockDial	access:private
+E_voting::ClockDial::setRange	ClockDial.cpp	/^void ClockDial::setRange(size_t op_low, size_t op_high)$/;"	f	class:E_voting::ClockDial	signature:(size_t op_low, size_t op_high)
+E_voting::ClockDial::setRange	ClockDial.h	/^    void setRange(double  vmin,double  vmax, $/;"	p	class:E_voting::ClockDial	access:private	signature:(double vmin,double vmax, double vstep , int pageSize )
+E_voting::ClockDial::setRange	ClockDial.h	/^    void setRange(size_t low,size_t high);$/;"	p	class:E_voting::ClockDial	access:public	signature:(size_t low,size_t high)
+E_voting::ClockDial::setValue	ClockDial.cpp	/^void ClockDial::setValue(size_t op)$/;"	f	class:E_voting::ClockDial	signature:(size_t op)
+E_voting::ClockDial::setValue	ClockDial.h	/^    void setValue(size_t );$/;"	p	class:E_voting::ClockDial	access:public	signature:(size_t )
+E_voting::MainWindow	MainWindow.h	/^class MainWindow : public QWidget$/;"	c	namespace:E_voting	inherits:QWidget
+E_voting::MainWindow::MainWindow	MainWindow.cpp	/^MainWindow::MainWindow(QWidget* parrent):$/;"	f	class:E_voting::MainWindow	signature:(QWidget* parrent)
+E_voting::MainWindow::MainWindow	MainWindow.h	/^	MainWindow(QWidget* parretn = 0);$/;"	p	class:E_voting::MainWindow	access:public	signature:(QWidget* parretn = 0)
+E_voting::MainWindow::addCandidate	MainWindow.cpp	/^void MainWindow::addCandidate(const QString& str)$/;"	f	class:E_voting::MainWindow	signature:(const QString& str)
+E_voting::MainWindow::addCandidate	MainWindow.h	/^	void addCandidate(const QString&);$/;"	p	class:E_voting::MainWindow	access:public	signature:(const QString&)
+E_voting::MainWindow::candidatSelected	MainWindow.h	/^    void candidatSelected(const Candidate * );$/;"	p	class:E_voting::MainWindow	access:public	signature:(const Candidate * )
+E_voting::MainWindow::enableFreezing	MainWindow.cpp	/^void MainWindow::enableFreezing(bool op)$/;"	f	class:E_voting::MainWindow	signature:(bool op)
+E_voting::MainWindow::enableFreezing	MainWindow.h	/^    void enableFreezing(bool);$/;"	p	class:E_voting::MainWindow	access:public	signature:(bool)
+E_voting::MainWindow::enableSelecting	MainWindow.cpp	/^void MainWindow::enableSelecting(bool op)$/;"	f	class:E_voting::MainWindow	signature:(bool op)
+E_voting::MainWindow::enableSelecting	MainWindow.h	/^    void enableSelecting(bool);$/;"	p	class:E_voting::MainWindow	access:public	signature:(bool)
+E_voting::MainWindow::getCandidatesCount	MainWindow.h	/^    int getCandidatesCount();$/;"	p	class:E_voting::MainWindow	access:public	signature:()
+E_voting::MainWindow::getNumVector	MainWindow.cpp	/^const QVector<int>  MainWindow::getNumVector() const$/;"	f	class:E_voting::MainWindow	signature:() const
+E_voting::MainWindow::getNumVector	MainWindow.h	/^    const QVector<int>  getNumVector() const;$/;"	p	class:E_voting::MainWindow	access:public	signature:() const
+E_voting::MainWindow::incrClockValue	MainWindow.cpp	/^void MainWindow::incrClockValue(size_t op)$/;"	f	class:E_voting::MainWindow	signature:(size_t op)
+E_voting::MainWindow::incrClockValue	MainWindow.h	/^    void incrClockValue(size_t);$/;"	p	class:E_voting::MainWindow	access:public	signature:(size_t)
+E_voting::MainWindow::m_candidates	MainWindow.h	/^	Candidates* m_candidates;$/;"	m	class:E_voting::MainWindow	access:private
+E_voting::MainWindow::m_clockDial	MainWindow.h	/^    ClockDial* m_clockDial;$/;"	m	class:E_voting::MainWindow	access:private
+E_voting::MainWindow::m_numbers	MainWindow.h	/^	Numbers* m_numbers;$/;"	m	class:E_voting::MainWindow	access:private
+E_voting::MainWindow::numberFreezed	MainWindow.h	/^    void numberFreezed(size_t op);$/;"	p	class:E_voting::MainWindow	access:public	signature:(size_t op)
+E_voting::MainWindow::numberSelected	MainWindow.h	/^    void numberSelected();$/;"	p	class:E_voting::MainWindow	access:public	signature:()
+E_voting::MainWindow::setClockValue	MainWindow.cpp	/^void MainWindow::setClockValue(size_t op)$/;"	f	class:E_voting::MainWindow	signature:(size_t op)
+E_voting::MainWindow::setClockValue	MainWindow.h	/^    void setClockValue(size_t );$/;"	p	class:E_voting::MainWindow	access:public	signature:(size_t )
+E_voting::MainWindow::setClocklReadOnly	MainWindow.cpp	/^void MainWindow::setClocklReadOnly(bool op)$/;"	f	class:E_voting::MainWindow	signature:(bool op)
+E_voting::MainWindow::setClocklReadOnly	MainWindow.h	/^    void setClocklReadOnly(bool);$/;"	p	class:E_voting::MainWindow	access:public	signature:(bool)
+E_voting::MainWindow::setNumbersCount	MainWindow.cpp	/^void MainWindow::setNumbersCount(int op)$/;"	f	class:E_voting::MainWindow	signature:(int op)
+E_voting::MainWindow::setNumbersCount	MainWindow.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::MainWindow	access:public	signature:(int)
+E_voting::Number	Number.h	/^class Number : public QLabel$/;"	c	namespace:E_voting	inherits:QLabel
+E_voting::Number::Number	Number.cpp	/^Number::Number(int op_low,int op_high,QLabel* parrent) :$/;"	f	class:E_voting::Number	signature:(int op_low,int op_high,QLabel* parrent)
+E_voting::Number::Number	Number.h	/^	Number(int op_low = 1,int op_high= 10 ,QLabel* = 0);$/;"	p	class:E_voting::Number	access:public	signature:(int op_low = 1,int op_high= 10 ,QLabel* = 0)
+E_voting::Number::checke	Number.cpp	/^void Number::checke(bool op)$/;"	f	class:E_voting::Number	signature:(bool op)
+E_voting::Number::checke	Number.h	/^	void checke(bool);$/;"	p	class:E_voting::Number	access:public	signature:(bool)
+E_voting::Number::checked	Number.h	/^	void checked(Number*);$/;"	p	class:E_voting::Number	access:private	signature:(Number*)
+E_voting::Number::getValue	Number.cpp	/^size_t Number::getValue() const$/;"	f	class:E_voting::Number	signature:() const
+E_voting::Number::getValue	Number.h	/^    size_t getValue()const ;$/;"	p	class:E_voting::Number	access:public	signature:() const
+E_voting::Number::isChecked	Number.cpp	/^bool Number::isChecked() const$/;"	f	class:E_voting::Number	signature:() const
+E_voting::Number::isChecked	Number.h	/^	bool isChecked() const;$/;"	p	class:E_voting::Number	access:public	signature:() const
+E_voting::Number::m_layout	Number.h	/^	QVBoxLayout *m_layout;$/;"	m	class:E_voting::Number	access:private
+E_voting::Number::m_radiobutton	Number.h	/^	QRadioButton *m_radiobutton;$/;"	m	class:E_voting::Number	access:private
+E_voting::Number::m_spinbox	Number.h	/^	QSpinBox *m_spinbox;$/;"	m	class:E_voting::Number	access:private
+E_voting::Number::selected	Number.cpp	/^void Number::selected(bool op)$/;"	f	class:E_voting::Number	signature:(bool op)
+E_voting::Number::selected	Number.h	/^	void selected(bool);$/;"	p	class:E_voting::Number	access:private	signature:(bool)
+E_voting::Number::setRange	Number.cpp	/^void Number::setRange(size_t low,size_t high)$/;"	f	class:E_voting::Number	signature:(size_t low,size_t high)
+E_voting::Number::setRange	Number.h	/^    void setRange(size_t low,size_t high);$/;"	p	class:E_voting::Number	access:public	signature:(size_t low,size_t high)
+E_voting::Numbers	Numbers.h	/^class Numbers : public QWidget$/;"	c	namespace:E_voting	inherits:QWidget
+E_voting::Numbers::Numbers	Numbers.cpp	/^Numbers::Numbers(QWidget *parrent):$/;"	f	class:E_voting::Numbers	signature:(QWidget *parrent)
+E_voting::Numbers::Numbers	Numbers.h	/^	Numbers(QWidget*parrent = 0);$/;"	p	class:E_voting::Numbers	access:public	signature:(QWidget*parrent = 0)
+E_voting::Numbers::enableFreezing	Numbers.cpp	/^void Numbers::enableFreezing(bool op)$/;"	f	class:E_voting::Numbers	signature:(bool op)
+E_voting::Numbers::enableFreezing	Numbers.h	/^    void enableFreezing(bool);$/;"	p	class:E_voting::Numbers	access:public	signature:(bool)
+E_voting::Numbers::enableSelecting	Numbers.cpp	/^void Numbers::enableSelecting(bool op)$/;"	f	class:E_voting::Numbers	signature:(bool op)
+E_voting::Numbers::enableSelecting	Numbers.h	/^    void enableSelecting(bool);$/;"	p	class:E_voting::Numbers	access:public	signature:(bool)
+E_voting::Numbers::getNumVector	Numbers.cpp	/^const QVector<int>  Numbers::getNumVector() const$/;"	f	class:E_voting::Numbers	signature:() const
+E_voting::Numbers::getNumVector	Numbers.h	/^    const QVector<int>  getNumVector() const;$/;"	p	class:E_voting::Numbers	access:public	signature:() const
+E_voting::Numbers::m_activeChois	Numbers.h	/^    Number                   *m_activeChois;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::m_freezButton	Numbers.h	/^	QPushButton              *m_freezButton;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::m_numbers	Numbers.h	/^	Number 			    	 *m_numbers;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::m_numbersCount	Numbers.h	/^    size_t m_numbersCount;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::m_numbersHorizontalLayout	Numbers.h	/^    QHBoxLayout              *m_numbersHorizontalLayout;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::m_selectButton	Numbers.h	/^	QPushButton  			 *m_selectButton;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::m_verticalLayout	Numbers.h	/^	QVBoxLayout 			 *m_verticalLayout;$/;"	m	class:E_voting::Numbers	access:private
+E_voting::Numbers::numFreezed	Numbers.cpp	/^void Numbers::numFreezed()$/;"	f	class:E_voting::Numbers	signature:()
+E_voting::Numbers::numFreezed	Numbers.h	/^    void numFreezed();$/;"	p	class:E_voting::Numbers	access:private	signature:()
+E_voting::Numbers::numSelected	Numbers.cpp	/^void Numbers::numSelected(Number* op)$/;"	f	class:E_voting::Numbers	signature:(Number* op)
+E_voting::Numbers::numSelected	Numbers.h	/^	void numSelected(Number *);$/;"	p	class:E_voting::Numbers	access:private	signature:(Number *)
+E_voting::Numbers::numberFreezed	Numbers.h	/^    void numberFreezed(size_t);$/;"	p	class:E_voting::Numbers	access:public	signature:(size_t)
+E_voting::Numbers::numberSelected	Numbers.h	/^    void numberSelected();$/;"	p	class:E_voting::Numbers	access:public	signature:()
+E_voting::Numbers::selectNumber	Numbers.cpp	/^void Numbers::selectNumber()$/;"	f	class:E_voting::Numbers	signature:()
+E_voting::Numbers::selectNumber	Numbers.h	/^	void selectNumber();$/;"	p	class:E_voting::Numbers	access:public	signature:()
+E_voting::Numbers::setNumbersCount	Numbers.cpp	/^void Numbers::setNumbersCount(int op)$/;"	f	class:E_voting::Numbers	signature:(int op)
+E_voting::Numbers::setNumbersCount	Numbers.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::Numbers	access:public	signature:(int)
+E_voting::Numbers::setRange	Numbers.cpp	/^void Numbers::setRange(size_t low,size_t high)$/;"	f	class:E_voting::Numbers	signature:(size_t low,size_t high)
+E_voting::Numbers::setRange	Numbers.h	/^    void setRange(size_t low,size_t high);$/;"	p	class:E_voting::Numbers	access:public	signature:(size_t low,size_t high)
+E_voting::SetUpWindow	SetUpWindow.h	/^class SetUpWindow : public QWidget $/;"	c	namespace:E_voting	inherits:QWidget
+E_voting::SetUpWindow::SetUpWindow	SetUpWindow.cpp	/^SetUpWindow::SetUpWindow(QWidget* parrent) :$/;"	f	class:E_voting::SetUpWindow	signature:(QWidget* parrent)
+E_voting::SetUpWindow::SetUpWindow	SetUpWindow.h	/^    SetUpWindow(QWidget* parrent=0);$/;"	p	class:E_voting::SetUpWindow	access:public	signature:(QWidget* parrent=0)
+E_voting::SetUpWindow::addCandidate	SetUpWindow.cpp	/^void SetUpWindow::addCandidate()$/;"	f	class:E_voting::SetUpWindow	signature:()
+E_voting::SetUpWindow::addCandidate	SetUpWindow.h	/^    void addCandidate();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::addCandidate	SetUpWindow.h	/^    void addCandidate(const QString &);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(const QString &)
+E_voting::SetUpWindow::getRandomBasePrime	SetUpWindow.cpp	/^void SetUpWindow::getRandomBasePrime()$/;"	f	class:E_voting::SetUpWindow	signature:()
+E_voting::SetUpWindow::getRandomBasePrime	SetUpWindow.h	/^    void getRandomBasePrime();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::getRandomGenerator	SetUpWindow.cpp	/^void SetUpWindow::getRandomGenerator()$/;"	f	class:E_voting::SetUpWindow	signature:()
+E_voting::SetUpWindow::getRandomGenerator	SetUpWindow.h	/^    void getRandomGenerator();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::m_addCandidate	SetUpWindow.h	/^    QPushButton* m_addCandidate;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_basePrime	SetUpWindow.h	/^    QLineEdit* m_basePrime;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_basePrimeLayout	SetUpWindow.h	/^    QHBoxLayout* m_basePrimeLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_candidateLayout	SetUpWindow.h	/^    QHBoxLayout* m_candidateLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_candidateLine	SetUpWindow.h	/^    QLineEdit* m_candidateLine;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_generator	SetUpWindow.h	/^    QLineEdit* m_generator;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_generatorLayout	SetUpWindow.h	/^    QHBoxLayout* m_generatorLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_layout	SetUpWindow.h	/^    QVBoxLayout *m_layout;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_numbersCount	SetUpWindow.h	/^    QSpinBox* m_numbersCount;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_numbersLayout	SetUpWindow.h	/^    QHBoxLayout* m_numbersLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_ok	SetUpWindow.h	/^    QPushButton* m_ok;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_randomBasePrime	SetUpWindow.h	/^    QPushButton* m_randomBasePrime;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_randomGenerator	SetUpWindow.h	/^    QPushButton* m_randomGenerator;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_setBasePrime	SetUpWindow.h	/^    QPushButton* m_setBasePrime;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_setGenerator	SetUpWindow.h	/^    QPushButton* m_setGenerator;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::m_setNumbersCount	SetUpWindow.h	/^    QPushButton* m_setNumbersCount;$/;"	m	class:E_voting::SetUpWindow	access:private
+E_voting::SetUpWindow::ok	SetUpWindow.h	/^    void ok();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::setBasePrime	SetUpWindow.cpp	/^void SetUpWindow::setBasePrime()$/;"	f	class:E_voting::SetUpWindow	signature:()
+E_voting::SetUpWindow::setBasePrime	SetUpWindow.h	/^    void setBasePrime();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::setBasePrime	SetUpWindow.h	/^    void setBasePrime(const QString&);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(const QString&)
+E_voting::SetUpWindow::setGenerator	SetUpWindow.cpp	/^void SetUpWindow::setGenerator()$/;"	f	class:E_voting::SetUpWindow	signature:()
+E_voting::SetUpWindow::setGenerator	SetUpWindow.h	/^    void setGenerator();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::setGenerator	SetUpWindow.h	/^    void setGenerator(const QString &);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(const QString &)
+E_voting::SetUpWindow::setNumbersCount	SetUpWindow.cpp	/^void SetUpWindow::setNumbersCount()$/;"	f	class:E_voting::SetUpWindow	signature:()
+E_voting::SetUpWindow::setNumbersCount	SetUpWindow.h	/^    void setNumbersCount();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+E_voting::SetUpWindow::setNumbersCount	SetUpWindow.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(int)
+E_voting::c_value_type	Candidate.h	/^typedef int c_value_type;$/;"	t	namespace:E_voting
+HEADERS	Makefile	/^HEADERS     = $/;"	m
+INCLUDES	Makefile	/^INCLUDES 	=-I..\/third_parth\/gmp\/include -I. -I..\/core\/ -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/ -I\/usr\/local\/qwt-6.0.2-svn\/include\/$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS 	= -Wl,-rpath ..\/third_parth\/lib -g -L\/usr\/lib\/i386-linux-gnu\/  -lQtCore -lQtGui -std=c++0x ..\/core\/libargithmetics.a -lgmp -L\/usr\/local\/qwt-6.0.2-svn\/lib -lqwt$/;"	m
+MAIN_WINDOW_H	MainWindow.h	7;"	d
+MOC_HEADERS	Makefile	/^MOC_HEADERS = ClockDial.h Candidate.h Canditates.h Number.h Numbers.h SetUpWindow.h MainWindow.h AppManager.h$/;"	m
+MOC_SRCS	Makefile	/^MOC_SRCS  	= $(patsubst %.h,moc_%.cpp,$(MOC_HEADERS) )$/;"	m
+MainWindow	MainWindow.cpp	/^MainWindow::MainWindow(QWidget* parrent):$/;"	f	class:E_voting::MainWindow	signature:(QWidget* parrent)
+MainWindow	MainWindow.h	/^	MainWindow(QWidget* parretn = 0);$/;"	p	class:E_voting::MainWindow	access:public	signature:(QWidget* parretn = 0)
+MainWindow	MainWindow.h	/^class MainWindow : public QWidget$/;"	c	namespace:E_voting	inherits:QWidget
+Number	Number.cpp	/^Number::Number(int op_low,int op_high,QLabel* parrent) :$/;"	f	class:E_voting::Number	signature:(int op_low,int op_high,QLabel* parrent)
+Number	Number.h	/^	Number(int op_low = 1,int op_high= 10 ,QLabel* = 0);$/;"	p	class:E_voting::Number	access:public	signature:(int op_low = 1,int op_high= 10 ,QLabel* = 0)
+Number	Number.h	/^class Number : public QLabel$/;"	c	namespace:E_voting	inherits:QLabel
+Numbers	Numbers.cpp	/^Numbers::Numbers(QWidget *parrent):$/;"	f	class:E_voting::Numbers	signature:(QWidget *parrent)
+Numbers	Numbers.h	/^	Numbers(QWidget*parrent = 0);$/;"	p	class:E_voting::Numbers	access:public	signature:(QWidget*parrent = 0)
+Numbers	Numbers.h	/^class Numbers : public QWidget$/;"	c	namespace:E_voting	inherits:QWidget
+OBJECTS	Makefile	/^OBJECTS		= $(patsubst %.cpp,obj\/%.o,$(SRC))$/;"	m
+SET_UP_WINDOW	SetUpWindow.h	7;"	d
+SRC	Makefile	/^SRC 		= main.cpp $(subst .h,.cpp,$(MOC_HEADERS)) $(subst .h,.cpp,$(HEADERS))  $(MOC_SRCS)   $/;"	m
+SetUpWindow	SetUpWindow.cpp	/^SetUpWindow::SetUpWindow(QWidget* parrent) :$/;"	f	class:E_voting::SetUpWindow	signature:(QWidget* parrent)
+SetUpWindow	SetUpWindow.h	/^    SetUpWindow(QWidget* parrent=0);$/;"	p	class:E_voting::SetUpWindow	access:public	signature:(QWidget* parrent=0)
+SetUpWindow	SetUpWindow.h	/^class SetUpWindow : public QWidget $/;"	c	namespace:E_voting	inherits:QWidget
+__NUMBERS_H	Numbers.h	5;"	d
+__NUMBER_H__	Number.h	6;"	d
+addCandidate	AppManager.cpp	/^void AppManager::addCandidate(const QString& op)$/;"	f	class:E_voting::AppManager	signature:(const QString& op)
+addCandidate	AppManager.h	/^    void addCandidate(const QString&);$/;"	p	class:E_voting::AppManager	access:private	signature:(const QString&)
+addCandidate	Canditates.cpp	/^void Candidates::addCandidate(Candidate * op_candidate)$/;"	f	class:E_voting::Candidates	signature:(Candidate * op_candidate)
+addCandidate	Canditates.cpp	/^void Candidates::addCandidate(const QString & op_candidate)$/;"	f	class:E_voting::Candidates	signature:(const QString & op_candidate)
+addCandidate	Canditates.h	/^    void addCandidate(Candidate * );$/;"	p	class:E_voting::Candidates	access:public	signature:(Candidate * )
+addCandidate	Canditates.h	/^    void addCandidate(const QString &);$/;"	p	class:E_voting::Candidates	access:public	signature:(const QString &)
+addCandidate	MainWindow.cpp	/^void MainWindow::addCandidate(const QString& str)$/;"	f	class:E_voting::MainWindow	signature:(const QString& str)
+addCandidate	MainWindow.h	/^	void addCandidate(const QString&);$/;"	p	class:E_voting::MainWindow	access:public	signature:(const QString&)
+addCandidate	SetUpWindow.cpp	/^void SetUpWindow::addCandidate()$/;"	f	class:E_voting::SetUpWindow	signature:()
+addCandidate	SetUpWindow.h	/^    void addCandidate();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+addCandidate	SetUpWindow.h	/^    void addCandidate(const QString &);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(const QString &)
+c_value_type	Candidate.h	/^typedef int c_value_type;$/;"	t	namespace:E_voting
+candidatSelected	Canditates.h	/^    void candidatSelected(const Candidate * );$/;"	p	class:E_voting::Candidates	access:public	signature:(const Candidate * )
+candidatSelected	MainWindow.h	/^    void candidatSelected(const Candidate * );$/;"	p	class:E_voting::MainWindow	access:public	signature:(const Candidate * )
+checke	Number.cpp	/^void Number::checke(bool op)$/;"	f	class:E_voting::Number	signature:(bool op)
+checke	Number.h	/^	void checke(bool);$/;"	p	class:E_voting::Number	access:public	signature:(bool)
+checked	Number.h	/^	void checked(Number*);$/;"	p	class:E_voting::Number	access:private	signature:(Number*)
+chipherVector	AppManager.h	/^    QVector<QPair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> > chipherVector;$/;"	m	class:E_voting::AppManager	access:private
+enable	Canditates.h	/^    void enable(bool );$/;"	p	class:E_voting::Candidates	access:public	signature:(bool )
+enableFreezing	MainWindow.cpp	/^void MainWindow::enableFreezing(bool op)$/;"	f	class:E_voting::MainWindow	signature:(bool op)
+enableFreezing	MainWindow.h	/^    void enableFreezing(bool);$/;"	p	class:E_voting::MainWindow	access:public	signature:(bool)
+enableFreezing	Numbers.cpp	/^void Numbers::enableFreezing(bool op)$/;"	f	class:E_voting::Numbers	signature:(bool op)
+enableFreezing	Numbers.h	/^    void enableFreezing(bool);$/;"	p	class:E_voting::Numbers	access:public	signature:(bool)
+enableSelecting	MainWindow.cpp	/^void MainWindow::enableSelecting(bool op)$/;"	f	class:E_voting::MainWindow	signature:(bool op)
+enableSelecting	MainWindow.h	/^    void enableSelecting(bool);$/;"	p	class:E_voting::MainWindow	access:public	signature:(bool)
+enableSelecting	Numbers.cpp	/^void Numbers::enableSelecting(bool op)$/;"	f	class:E_voting::Numbers	signature:(bool op)
+enableSelecting	Numbers.h	/^    void enableSelecting(bool);$/;"	p	class:E_voting::Numbers	access:public	signature:(bool)
+encryptNumbers	AppManager.cpp	/^QVector<QPair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> > AppManager::encryptNumbers(const QVector<int>& op)$/;"	f	class:E_voting::AppManager	signature:(const QVector<int>& op)
+encryptNumbers	AppManager.h	/^    QVector<QPair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> > encryptNumbers(const QVector<int>&numbersToEncrypt);$/;"	p	class:E_voting::AppManager	access:public	signature:(const QVector<int>&numbersToEncrypt)
+exec	AppManager.cpp	/^void AppManager::exec()$/;"	f	class:E_voting::AppManager	signature:()
+exec	AppManager.h	/^    void exec();$/;"	p	class:E_voting::AppManager	access:public	signature:()
+findCandidate	Canditates.cpp	/^Candidate* Candidates::findCandidate(const QString& op)$/;"	f	class:E_voting::Candidates	signature:(const QString& op)
+findCandidate	Canditates.h	/^    Candidate* findCandidate(const QString & op);$/;"	p	class:E_voting::Candidates	access:private	signature:(const QString & op)
+freezCandidates	Canditates.h	/^    void freezCandidates();$/;"	p	class:E_voting::Candidates	access:public	signature:()
+getCandidatesCount	MainWindow.h	/^    int getCandidatesCount();$/;"	p	class:E_voting::MainWindow	access:public	signature:()
+getCount	Canditates.cpp	/^int Candidates::getCount()$/;"	f	class:E_voting::Candidates	signature:()
+getCount	Canditates.h	/^    int getCount();$/;"	p	class:E_voting::Candidates	access:public	signature:()
+getNumVector	MainWindow.cpp	/^const QVector<int>  MainWindow::getNumVector() const$/;"	f	class:E_voting::MainWindow	signature:() const
+getNumVector	MainWindow.h	/^    const QVector<int>  getNumVector() const;$/;"	p	class:E_voting::MainWindow	access:public	signature:() const
+getNumVector	Numbers.cpp	/^const QVector<int>  Numbers::getNumVector() const$/;"	f	class:E_voting::Numbers	signature:() const
+getNumVector	Numbers.h	/^    const QVector<int>  getNumVector() const;$/;"	p	class:E_voting::Numbers	access:public	signature:() const
+getNumber	Candidate.cpp	/^c_value_type Candidate::getNumber() const$/;"	f	class:E_voting::Candidate	signature:() const
+getNumber	Candidate.h	/^    c_value_type getNumber()const;$/;"	p	class:E_voting::Candidate	access:public	signature:() const
+getRandomBasePrime	SetUpWindow.cpp	/^void SetUpWindow::getRandomBasePrime()$/;"	f	class:E_voting::SetUpWindow	signature:()
+getRandomBasePrime	SetUpWindow.h	/^    void getRandomBasePrime();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+getRandomGenerator	SetUpWindow.cpp	/^void SetUpWindow::getRandomGenerator()$/;"	f	class:E_voting::SetUpWindow	signature:()
+getRandomGenerator	SetUpWindow.h	/^    void getRandomGenerator();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+getSelectedNumber	AppManager.cpp	/^void AppManager::getSelectedNumber(const int)$/;"	f	class:E_voting::AppManager	signature:(const int)
+getSelectedNumber	AppManager.h	/^    void getSelectedNumber(const int);$/;"	p	class:E_voting::AppManager	access:private	signature:(const int)
+getText	Candidate.cpp	/^const QString Candidate::getText() const$/;"	f	class:E_voting::Candidate	signature:() const
+getText	Candidate.h	/^    const QString getText() const;$/;"	p	class:E_voting::Candidate	access:public	signature:() const
+getValue	ClockDial.cpp	/^size_t ClockDial::getValue() const$/;"	f	class:E_voting::ClockDial	signature:() const
+getValue	Number.cpp	/^size_t Number::getValue() const$/;"	f	class:E_voting::Number	signature:() const
+getValue	Number.h	/^    size_t getValue()const ;$/;"	p	class:E_voting::Number	access:public	signature:() const
+handleCandidateChecked	AppManager.cpp	/^void AppManager:: handleCandidateChecked(const Candidate* op)$/;"	f	class:E_voting::AppManager	signature:(const Candidate* op)
+handleCandidateChecked	AppManager.h	/^    void handleCandidateChecked(const Candidate*);$/;"	p	class:E_voting::AppManager	access:private	signature:(const Candidate*)
+handleNumSelected	AppManager.cpp	/^void AppManager::handleNumSelected()$/;"	f	class:E_voting::AppManager	signature:()
+handleNumSelected	AppManager.h	/^    void handleNumSelected();$/;"	p	class:E_voting::AppManager	access:private	signature:()
+incrClockValue	MainWindow.cpp	/^void MainWindow::incrClockValue(size_t op)$/;"	f	class:E_voting::MainWindow	signature:(size_t op)
+incrClockValue	MainWindow.h	/^    void incrClockValue(size_t);$/;"	p	class:E_voting::MainWindow	access:public	signature:(size_t)
+isChaked	Candidate.h	/^    void isChaked(const QString &,c_value_type);$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString &,c_value_type)
+isChanged	Candidate.cpp	/^void Candidate::isChanged(bool status)$/;"	f	class:E_voting::Candidate	signature:(bool status)
+isChanged	Candidate.h	/^    void isChanged(bool status);$/;"	p	class:E_voting::Candidate	access:public	signature:(bool status)
+isChecked	Number.cpp	/^bool Number::isChecked() const$/;"	f	class:E_voting::Number	signature:() const
+isChecked	Number.h	/^	bool isChecked() const;$/;"	p	class:E_voting::Number	access:public	signature:() const
+isUnChaked	Candidate.h	/^    void isUnChaked(const QString&,c_value_type);$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString&,c_value_type)
+m_IDNum	AuthenticationWindow.h	/^    QLineEdit * m_IDNum;$/;"	m	class:AuthenticationWindow	access:public
+m_activeChois	Numbers.h	/^    Number                   *m_activeChois;$/;"	m	class:E_voting::Numbers	access:private
+m_addCandidate	SetUpWindow.h	/^    QPushButton* m_addCandidate;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_basePrime	SetUpWindow.h	/^    QLineEdit* m_basePrime;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_basePrimeLayout	SetUpWindow.h	/^    QHBoxLayout* m_basePrimeLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_candidate	Candidate.h	/^    QLabel       *m_candidate;   $/;"	m	class:E_voting::Candidate	access:private
+m_candidateLayout	SetUpWindow.h	/^    QHBoxLayout* m_candidateLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_candidateLine	SetUpWindow.h	/^    QLineEdit* m_candidateLine;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_candidates	Canditates.h	/^    QVector < Candidate* > m_candidates;$/;"	m	class:E_voting::Candidates	access:private
+m_candidates	MainWindow.h	/^	Candidates* m_candidates;$/;"	m	class:E_voting::MainWindow	access:private
+m_candidatesCount	ClockDial.h	/^    size_t m_candidatesCount;$/;"	m	class:E_voting::ClockDial	access:private
+m_chois	Candidate.h	/^    QCheckBox    *m_chois;$/;"	m	class:E_voting::Candidate	access:private
+m_clockDial	MainWindow.h	/^    ClockDial* m_clockDial;$/;"	m	class:E_voting::MainWindow	access:private
+m_confirm	AuthenticationWindow.h	/^    QPushButton* m_confirm;$/;"	m	class:AuthenticationWindow	access:public
+m_confirmButton	Canditates.h	/^    QPushButton * m_confirmButton;$/;"	m	class:E_voting::Candidates	access:private
+m_encrypter	AppManager.h	/^    ElGamalEncrypter* m_encrypter;$/;"	m	class:E_voting::AppManager	access:private
+m_freezButton	Numbers.h	/^	QPushButton              *m_freezButton;$/;"	m	class:E_voting::Numbers	access:private
+m_generator	SetUpWindow.h	/^    QLineEdit* m_generator;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_generatorLayout	SetUpWindow.h	/^    QHBoxLayout* m_generatorLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_layout	Candidate.h	/^    QHBoxLayout  *m_layout;$/;"	m	class:E_voting::Candidate	access:private
+m_layout	Canditates.h	/^    QVBoxLayout * m_layout;$/;"	m	class:E_voting::Candidates	access:private
+m_layout	Number.h	/^	QVBoxLayout *m_layout;$/;"	m	class:E_voting::Number	access:private
+m_layout	SetUpWindow.h	/^    QVBoxLayout *m_layout;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_mainWindow	AppManager.h	/^    MainWindow* m_mainWindow;$/;"	m	class:E_voting::AppManager	access:private
+m_number	Candidate.h	/^    c_value_type m_number;$/;"	m	class:E_voting::Candidate	access:private
+m_numbers	MainWindow.h	/^	Numbers* m_numbers;$/;"	m	class:E_voting::MainWindow	access:private
+m_numbers	Numbers.h	/^	Number 			    	 *m_numbers;$/;"	m	class:E_voting::Numbers	access:private
+m_numbersCount	Numbers.h	/^    size_t m_numbersCount;$/;"	m	class:E_voting::Numbers	access:private
+m_numbersCount	SetUpWindow.h	/^    QSpinBox* m_numbersCount;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_numbersHorizontalLayout	Numbers.h	/^    QHBoxLayout              *m_numbersHorizontalLayout;$/;"	m	class:E_voting::Numbers	access:private
+m_numbersLayout	SetUpWindow.h	/^    QHBoxLayout* m_numbersLayout;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_ok	SetUpWindow.h	/^    QPushButton* m_ok;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_radiobutton	Number.h	/^	QRadioButton *m_radiobutton;$/;"	m	class:E_voting::Number	access:private
+m_randomBasePrime	SetUpWindow.h	/^    QPushButton* m_randomBasePrime;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_randomGenerator	SetUpWindow.h	/^    QPushButton* m_randomGenerator;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_selectButton	Numbers.h	/^	QPushButton  			 *m_selectButton;$/;"	m	class:E_voting::Numbers	access:private
+m_setBasePrime	SetUpWindow.h	/^    QPushButton* m_setBasePrime;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_setGenerator	SetUpWindow.h	/^    QPushButton* m_setGenerator;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_setNumbersCount	SetUpWindow.h	/^    QPushButton* m_setNumbersCount;$/;"	m	class:E_voting::SetUpWindow	access:private
+m_setUpWindow	AppManager.h	/^    SetUpWindow* m_setUpWindow;$/;"	m	class:E_voting::AppManager	access:private
+m_spinbox	Number.h	/^	QSpinBox *m_spinbox;$/;"	m	class:E_voting::Number	access:private
+m_verticalLayout	Numbers.h	/^	QVBoxLayout 			 *m_verticalLayout;$/;"	m	class:E_voting::Numbers	access:private
+main	main.cpp	/^int main(int argc,char* argv[])$/;"	f	signature:(int argc,char* argv[])
+needle	ClockDial.h	/^    QwtDialSimpleNeedle *needle;$/;"	m	class:E_voting::ClockDial	access:private
+numFreezed	Numbers.cpp	/^void Numbers::numFreezed()$/;"	f	class:E_voting::Numbers	signature:()
+numFreezed	Numbers.h	/^    void numFreezed();$/;"	p	class:E_voting::Numbers	access:private	signature:()
+numSelected	Numbers.cpp	/^void Numbers::numSelected(Number* op)$/;"	f	class:E_voting::Numbers	signature:(Number* op)
+numSelected	Numbers.h	/^	void numSelected(Number *);$/;"	p	class:E_voting::Numbers	access:private	signature:(Number *)
+numberFreezed	MainWindow.h	/^    void numberFreezed(size_t op);$/;"	p	class:E_voting::MainWindow	access:public	signature:(size_t op)
+numberFreezed	Numbers.h	/^    void numberFreezed(size_t);$/;"	p	class:E_voting::Numbers	access:public	signature:(size_t)
+numberSelected	MainWindow.h	/^    void numberSelected();$/;"	p	class:E_voting::MainWindow	access:public	signature:()
+numberSelected	Numbers.h	/^    void numberSelected();$/;"	p	class:E_voting::Numbers	access:public	signature:()
+ok	SetUpWindow.h	/^    void ok();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+removeCandidate	Canditates.cpp	/^void Candidates::removeCandidate(const Candidate & op_toRemove)$/;"	f	class:E_voting::Candidates	signature:(const Candidate & op_toRemove)
+removeCandidate	Canditates.h	/^    void removeCandidate(const Candidate &);$/;"	p	class:E_voting::Candidates	access:public	signature:(const Candidate &)
+selectCandidate	Canditates.cpp	/^void Candidates::selectCandidate(const QString& op_candidate)$/;"	f	class:E_voting::Candidates	signature:(const QString& op_candidate)
+selectCandidate	Canditates.h	/^    void selectCandidate(const QString&);$/;"	p	class:E_voting::Candidates	access:public	signature:(const QString&)
+selectNumber	Numbers.cpp	/^void Numbers::selectNumber()$/;"	f	class:E_voting::Numbers	signature:()
+selectNumber	Numbers.h	/^	void selectNumber();$/;"	p	class:E_voting::Numbers	access:public	signature:()
+selected	Number.cpp	/^void Number::selected(bool op)$/;"	f	class:E_voting::Number	signature:(bool op)
+selected	Number.h	/^	void selected(bool);$/;"	p	class:E_voting::Number	access:private	signature:(bool)
+setBasePrime	AppManager.cpp	/^void AppManager::setBasePrime(const QString& op)$/;"	f	class:E_voting::AppManager	signature:(const QString& op)
+setBasePrime	AppManager.h	/^    void setBasePrime(const QString&);$/;"	p	class:E_voting::AppManager	access:private	signature:(const QString&)
+setBasePrime	SetUpWindow.cpp	/^void SetUpWindow::setBasePrime()$/;"	f	class:E_voting::SetUpWindow	signature:()
+setBasePrime	SetUpWindow.h	/^    void setBasePrime();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+setBasePrime	SetUpWindow.h	/^    void setBasePrime(const QString&);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(const QString&)
+setChecked	Candidate.cpp	/^void Candidate::setChecked(bool op)$/;"	f	class:E_voting::Candidate	signature:(bool op)
+setChecked	Candidate.h	/^    void setChecked(bool op);$/;"	p	class:E_voting::Candidate	access:public	signature:(bool op)
+setClockValue	MainWindow.cpp	/^void MainWindow::setClockValue(size_t op)$/;"	f	class:E_voting::MainWindow	signature:(size_t op)
+setClockValue	MainWindow.h	/^    void setClockValue(size_t );$/;"	p	class:E_voting::MainWindow	access:public	signature:(size_t )
+setClocklReadOnly	MainWindow.cpp	/^void MainWindow::setClocklReadOnly(bool op)$/;"	f	class:E_voting::MainWindow	signature:(bool op)
+setClocklReadOnly	MainWindow.h	/^    void setClocklReadOnly(bool);$/;"	p	class:E_voting::MainWindow	access:public	signature:(bool)
+setGenerator	AppManager.cpp	/^void AppManager::setGenerator(const QString& op)$/;"	f	class:E_voting::AppManager	signature:(const QString& op)
+setGenerator	AppManager.h	/^    void setGenerator(const QString &);$/;"	p	class:E_voting::AppManager	access:private	signature:(const QString &)
+setGenerator	SetUpWindow.cpp	/^void SetUpWindow::setGenerator()$/;"	f	class:E_voting::SetUpWindow	signature:()
+setGenerator	SetUpWindow.h	/^    void setGenerator();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+setGenerator	SetUpWindow.h	/^    void setGenerator(const QString &);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(const QString &)
+setNumber	Candidate.cpp	/^void Candidate::setNumber(c_value_type n)$/;"	f	class:E_voting::Candidate	signature:(c_value_type n)
+setNumber	Candidate.h	/^    void setNumber(c_value_type);$/;"	p	class:E_voting::Candidate	access:public	signature:(c_value_type)
+setNumbersCount	AppManager.cpp	/^void AppManager::setNumbersCount(int op)$/;"	f	class:E_voting::AppManager	signature:(int op)
+setNumbersCount	AppManager.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::AppManager	access:private	signature:(int)
+setNumbersCount	MainWindow.cpp	/^void MainWindow::setNumbersCount(int op)$/;"	f	class:E_voting::MainWindow	signature:(int op)
+setNumbersCount	MainWindow.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::MainWindow	access:public	signature:(int)
+setNumbersCount	Numbers.cpp	/^void Numbers::setNumbersCount(int op)$/;"	f	class:E_voting::Numbers	signature:(int op)
+setNumbersCount	Numbers.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::Numbers	access:public	signature:(int)
+setNumbersCount	SetUpWindow.cpp	/^void SetUpWindow::setNumbersCount()$/;"	f	class:E_voting::SetUpWindow	signature:()
+setNumbersCount	SetUpWindow.h	/^    void setNumbersCount();$/;"	p	class:E_voting::SetUpWindow	access:private	signature:()
+setNumbersCount	SetUpWindow.h	/^    void setNumbersCount(int);$/;"	p	class:E_voting::SetUpWindow	access:private	signature:(int)
+setRange	ClockDial.cpp	/^void ClockDial::setRange(size_t op_low, size_t op_high)$/;"	f	class:E_voting::ClockDial	signature:(size_t op_low, size_t op_high)
+setRange	ClockDial.h	/^    void setRange(double  vmin,double  vmax, $/;"	p	class:E_voting::ClockDial	access:private	signature:(double vmin,double vmax, double vstep , int pageSize )
+setRange	ClockDial.h	/^    void setRange(size_t low,size_t high);$/;"	p	class:E_voting::ClockDial	access:public	signature:(size_t low,size_t high)
+setRange	Number.cpp	/^void Number::setRange(size_t low,size_t high)$/;"	f	class:E_voting::Number	signature:(size_t low,size_t high)
+setRange	Number.h	/^    void setRange(size_t low,size_t high);$/;"	p	class:E_voting::Number	access:public	signature:(size_t low,size_t high)
+setRange	Numbers.cpp	/^void Numbers::setRange(size_t low,size_t high)$/;"	f	class:E_voting::Numbers	signature:(size_t low,size_t high)
+setRange	Numbers.h	/^    void setRange(size_t low,size_t high);$/;"	p	class:E_voting::Numbers	access:public	signature:(size_t low,size_t high)
+setText	Candidate.cpp	/^void Candidate::setText(const QString & txt)$/;"	f	class:E_voting::Candidate	signature:(const QString & txt)
+setText	Candidate.h	/^    void setText(const QString & str) ;$/;"	p	class:E_voting::Candidate	access:public	signature:(const QString & str)
+setUpEnded	AppManager.cpp	/^void AppManager::setUpEnded()$/;"	f	class:E_voting::AppManager	signature:()
+setUpEnded	AppManager.h	/^    void setUpEnded();$/;"	p	class:E_voting::AppManager	access:private	signature:()
+setValue	ClockDial.cpp	/^void ClockDial::setValue(size_t op)$/;"	f	class:E_voting::ClockDial	signature:(size_t op)
+setValue	ClockDial.h	/^    void setValue(size_t );$/;"	p	class:E_voting::ClockDial	access:public	signature:(size_t )
+startVoting	AppManager.cpp	/^void AppManager::startVoting()$/;"	f	class:E_voting::AppManager	signature:()
+startVoting	AppManager.h	/^    void startVoting();$/;"	p	class:E_voting::AppManager	access:private	signature:()
+unSelectCandidate	Canditates.cpp	/^void Candidates::unSelectCandidate(const QString& op_candidate)$/;"	f	class:E_voting::Candidates	signature:(const QString& op_candidate)
+unSelectCandidate	Canditates.h	/^    void unSelectCandidate(const QString&);$/;"	p	class:E_voting::Candidates	access:public	signature:(const QString&)

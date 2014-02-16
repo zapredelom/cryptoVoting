@@ -1,0 +1,615 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = g++$/;"	m
+CC_FLAGS	Makefile	/^CC_FLAGS = $(INCLUDE_DIRS) -std=c++0x -g -c -Wall -Werror --pedantic $/;"	m
+CHAR_BIT	Larginteger.h	3;"	d
+Chiphertext_type	DBManager.h	/^typedef std::string Chiphertext_type ;$/;"	t	namespace:E_voting
+DBMANAGER_H	DBManager.h	5;"	d
+DBManager	DBManager.cpp	/^DBManager::DBManager():$/;"	f	class:E_voting::DBManager	signature:()
+DBManager	DBManager.h	/^    DBManager();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+DBManager	DBManager.h	/^class DBManager$/;"	c	namespace:E_voting
+EL_GAMAL_BASE_H	ElGamalBase.h	3;"	d
+EL_GAMAL_DECRYPTER_H	ElGamalDecrypter.h	3;"	d
+EL_GAMAL_ENCRYPTER_H	ElGamalEncrypter.h	4;"	d
+E_voting	DBManager.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	DBManager.h	/^namespace E_voting$/;"	n
+E_voting	ElGamalBase.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	ElGamalBase.h	/^namespace E_voting$/;"	n
+E_voting	ElGamalDecrypter.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	ElGamalDecrypter.h	/^namespace E_voting$/;"	n
+E_voting	ElGamalEncrypter.cpp	/^namespace E_voting{$/;"	n	file:
+E_voting	ElGamalEncrypter.h	/^namespace E_voting$/;"	n
+E_voting	GmpWraper.cpp	/^namespace E_voting$/;"	n	file:
+E_voting	GmpWraper.h	/^namespace E_voting$/;"	n
+E_voting	Larginteger.cpp	/^namespace E_voting{$/;"	n	file:
+E_voting	Larginteger.h	/^namespace E_voting$/;"	n
+E_voting	Primality.cpp	/^namespace E_voting{$/;"	n	file:
+E_voting	Primality.h	/^namespace E_voting{$/;"	n
+E_voting::Chiphertext_type	DBManager.h	/^typedef std::string Chiphertext_type ;$/;"	t	namespace:E_voting
+E_voting::DBManager	DBManager.h	/^class DBManager$/;"	c	namespace:E_voting
+E_voting::DBManager::DBManager	DBManager.cpp	/^DBManager::DBManager():$/;"	f	class:E_voting::DBManager	signature:()
+E_voting::DBManager::DBManager	DBManager.h	/^    DBManager();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+E_voting::DBManager::addElection	DBManager.cpp	/^void DBManager::addElection(const Chiphertext_type & value)$/;"	f	class:E_voting::DBManager	signature:(const Chiphertext_type & value)
+E_voting::DBManager::addElection	DBManager.h	/^    void addElection(const Chiphertext_type&);$/;"	p	class:E_voting::DBManager	access:public	signature:(const Chiphertext_type&)
+E_voting::DBManager::addElector	DBManager.cpp	/^void DBManager::addElector(const Chiphertext_type & value)$/;"	f	class:E_voting::DBManager	signature:(const Chiphertext_type & value)
+E_voting::DBManager::addElector	DBManager.h	/^    void addElector(const Chiphertext_type&);$/;"	p	class:E_voting::DBManager	access:public	signature:(const Chiphertext_type&)
+E_voting::DBManager::checkConsitency	DBManager.cpp	/^bool DBManager::checkConsitency()$/;"	f	class:E_voting::DBManager	signature:()
+E_voting::DBManager::checkConsitency	DBManager.h	/^    bool checkConsitency();$/;"	p	class:E_voting::DBManager	access:private	signature:()
+E_voting::DBManager::finalize	DBManager.cpp	/^void DBManager::finalize()$/;"	f	class:E_voting::DBManager	signature:()
+E_voting::DBManager::finalize	DBManager.h	/^    void finalize();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+E_voting::DBManager::init	DBManager.cpp	/^int DBManager::init()$/;"	f	class:E_voting::DBManager	signature:()
+E_voting::DBManager::init	DBManager.h	/^    int init();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+E_voting::DBManager::m_election	DBManager.h	/^    Chiphertext_type m_election;$/;"	m	class:E_voting::DBManager	access:private
+E_voting::DBManager::m_elector	DBManager.h	/^    Chiphertext_type m_elector;$/;"	m	class:E_voting::DBManager	access:private
+E_voting::DBManager::m_file	DBManager.h	/^    std::ofstream m_file;$/;"	m	class:E_voting::DBManager	access:private
+E_voting::DBManager::m_finalized	DBManager.h	/^    bool m_finalized;$/;"	m	class:E_voting::DBManager	access:private
+E_voting::DBManager::m_lastError	DBManager.h	/^    static std::string m_lastError;$/;"	m	class:E_voting::DBManager	access:private
+E_voting::DBManager::m_nullValue	DBManager.cpp	/^const Chiphertext_type DBManager::m_nullValue = "";$/;"	m	class:E_voting::DBManager	file:
+E_voting::DBManager::m_nullValue	DBManager.h	/^    static const Chiphertext_type m_nullValue;$/;"	m	class:E_voting::DBManager	access:private
+E_voting::DBManager::writeToDB	DBManager.cpp	/^void DBManager::writeToDB()$/;"	f	class:E_voting::DBManager	signature:()
+E_voting::DBManager::writeToDB	DBManager.h	/^    void  writeToDB();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+E_voting::DBManager::~DBManager	DBManager.h	/^    ~DBManager();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+E_voting::ElGamalBase	ElGamalBase.h	/^class ElGamalBase$/;"	c	namespace:E_voting
+E_voting::ElGamalBase::ElGamalBase	ElGamalBase.cpp	/^	ElGamalBase::ElGamalBase()$/;"	f	class:E_voting::ElGamalBase	signature:()
+E_voting::ElGamalBase::ElGamalBase	ElGamalBase.h	/^	ElGamalBase();$/;"	p	class:E_voting::ElGamalBase	access:public	signature:()
+E_voting::ElGamalBase::getBase	ElGamalBase.cpp	/^ElGamalBase::key_type ElGamalBase::getBase() const$/;"	f	class:E_voting::ElGamalBase	signature:() const
+E_voting::ElGamalBase::getBase	ElGamalBase.h	/^    virtual key_type getBase()const;$/;"	p	class:E_voting::ElGamalBase	access:public	signature:() const
+E_voting::ElGamalBase::getGenerator	ElGamalBase.cpp	/^ElGamalBase::key_type ElGamalBase::getGenerator()const$/;"	f	class:E_voting::ElGamalBase	signature:() const
+E_voting::ElGamalBase::getGenerator	ElGamalBase.h	/^    virtual key_type getGenerator() const ;$/;"	p	class:E_voting::ElGamalBase	access:public	signature:() const
+E_voting::ElGamalBase::getY	ElGamalBase.cpp	/^ElGamalBase::key_type ElGamalBase::getY() const $/;"	f	class:E_voting::ElGamalBase	signature:() const
+E_voting::ElGamalBase::getY	ElGamalBase.h	/^    virtual key_type getY()const;$/;"	p	class:E_voting::ElGamalBase	access:public	signature:() const
+E_voting::ElGamalBase::get_public_key	ElGamalBase.cpp	/^void	ElGamalBase::get_public_key(ElGamalBase* op2)$/;"	f	class:E_voting::ElGamalBase	signature:(ElGamalBase* op2)
+E_voting::ElGamalBase::get_public_key	ElGamalBase.h	/^	virtual void get_public_key(ElGamalBase*);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(ElGamalBase*)
+E_voting::ElGamalBase::key_type	ElGamalBase.h	/^	typedef GmpWrapper key_type;$/;"	t	class:E_voting::ElGamalBase	access:public
+E_voting::ElGamalBase::m_generator	ElGamalBase.h	/^	key_type m_generator;$/;"	m	class:E_voting::ElGamalBase	access:protected
+E_voting::ElGamalBase::m_prime	ElGamalBase.h	/^	key_type m_prime;$/;"	m	class:E_voting::ElGamalBase	access:protected
+E_voting::ElGamalBase::m_y	ElGamalBase.h	/^	key_type m_y;$/;"	m	class:E_voting::ElGamalBase	access:protected
+E_voting::ElGamalBase::set_base	ElGamalBase.cpp	/^void	ElGamalBase::set_base(const key_type& op_base)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_base)
+E_voting::ElGamalBase::set_base	ElGamalBase.h	/^	virtual void set_base(const key_type&);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type&)
+E_voting::ElGamalBase::set_generator	ElGamalBase.cpp	/^void	ElGamalBase::set_generator(const key_type& op_generator)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_generator)
+E_voting::ElGamalBase::set_generator	ElGamalBase.h	/^	virtual void set_generator(const key_type&);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type&)
+E_voting::ElGamalBase::set_public_key	ElGamalBase.cpp	/^void	ElGamalBase::set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+E_voting::ElGamalBase::set_public_key	ElGamalBase.h	/^	virtual void set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+E_voting::ElGamalBase::set_y	ElGamalBase.cpp	/^void	ElGamalBase::set_y(const key_type& op_y)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_y)
+E_voting::ElGamalBase::set_y	ElGamalBase.h	/^	virtual void set_y(const key_type&);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type&)
+E_voting::ElGamalBase::~ElGamalBase	ElGamalBase.cpp	/^	ElGamalBase::~ElGamalBase()$/;"	f	class:E_voting::ElGamalBase	signature:()
+E_voting::ElGamalBase::~ElGamalBase	ElGamalBase.h	/^	virtual ~ElGamalBase();$/;"	p	class:E_voting::ElGamalBase	access:public	signature:()
+E_voting::ElGamalDecrypter	ElGamalDecrypter.h	/^	class ElGamalDecrypter: public ElGamalBase$/;"	c	namespace:E_voting	inherits:ElGamalBase
+E_voting::ElGamalDecrypter::ElGamalDecrypter	ElGamalDecrypter.cpp	/^	ElGamalDecrypter::ElGamalDecrypter():ElGamalBase()$/;"	f	class:E_voting::ElGamalDecrypter	signature:()
+E_voting::ElGamalDecrypter::ElGamalDecrypter	ElGamalDecrypter.cpp	/^	ElGamalDecrypter::ElGamalDecrypter(const key_type& op_prvatekey)$/;"	f	class:E_voting::ElGamalDecrypter	signature:(const key_type& op_prvatekey)
+E_voting::ElGamalDecrypter::ElGamalDecrypter	ElGamalDecrypter.h	/^		ElGamalDecrypter();$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:()
+E_voting::ElGamalDecrypter::ElGamalDecrypter	ElGamalDecrypter.h	/^		ElGamalDecrypter(const key_type &);$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const key_type &)
+E_voting::ElGamalDecrypter::decrypt	ElGamalDecrypter.cpp	/^	const ElGamalDecrypter::key_type ElGamalDecrypter::decrypt(const std::pair<key_type,key_type> & op_chiphertext)const $/;"	f	class:E_voting::ElGamalDecrypter	signature:(const std::pair<key_type,key_type> & op_chiphertext) const
+E_voting::ElGamalDecrypter::decrypt	ElGamalDecrypter.h	/^		const key_type decrypt(const std::pair<key_type,key_type>& op_chpihertext) const ;$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const std::pair<key_type,key_type>& op_chpihertext) const
+E_voting::ElGamalDecrypter::generate_private_key	ElGamalDecrypter.cpp	/^	void ElGamalDecrypter::generate_private_key()$/;"	f	class:E_voting::ElGamalDecrypter	signature:()
+E_voting::ElGamalDecrypter::generate_private_key	ElGamalDecrypter.h	/^		void generate_private_key();$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:()
+E_voting::ElGamalDecrypter::m_privatkey	ElGamalDecrypter.h	/^		key_type m_privatkey;$/;"	m	class:E_voting::ElGamalDecrypter	access:private
+E_voting::ElGamalDecrypter::set_private_key	ElGamalDecrypter.cpp	/^	void ElGamalDecrypter::set_private_key(const key_type& op_privatekey) $/;"	f	class:E_voting::ElGamalDecrypter	signature:(const key_type& op_privatekey)
+E_voting::ElGamalDecrypter::set_private_key	ElGamalDecrypter.h	/^		void set_private_key(const key_type& op_privateKey) ;$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const key_type& op_privateKey)
+E_voting::ElGamalDecrypter::set_public_key	ElGamalDecrypter.cpp	/^    void ElGamalDecrypter::set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y) $/;"	f	class:E_voting::ElGamalDecrypter	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+E_voting::ElGamalDecrypter::set_public_key	ElGamalDecrypter.h	/^		virtual void set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y) ;$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+E_voting::ElGamalDecrypter::~ElGamalDecrypter	ElGamalDecrypter.cpp	/^	ElGamalDecrypter::~ElGamalDecrypter()$/;"	f	class:E_voting::ElGamalDecrypter	signature:()
+E_voting::ElGamalDecrypter::~ElGamalDecrypter	ElGamalDecrypter.h	/^		~ElGamalDecrypter();$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:()
+E_voting::ElGamalEncrypter	ElGamalEncrypter.h	/^class ElGamalEncrypter: public ElGamalBase$/;"	c	namespace:E_voting	inherits:ElGamalBase
+E_voting::ElGamalEncrypter::ElGamalEncrypter	ElGamalEncrypter.cpp	/^ElGamalEncrypter::ElGamalEncrypter():ElGamalBase()$/;"	f	class:E_voting::ElGamalEncrypter	signature:()
+E_voting::ElGamalEncrypter::encrypt	ElGamalEncrypter.cpp	/^std::pair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> ElGamalEncrypter::encrypt(const key_type& op_message)$/;"	f	class:E_voting::ElGamalEncrypter	signature:(const key_type& op_message)
+E_voting::ElGamalEncrypter::encrypt	ElGamalEncrypter.h	/^	std::pair<key_type,key_type> encrypt(const key_type &);$/;"	p	class:E_voting::ElGamalEncrypter	access:public	signature:(const key_type &)
+E_voting::ElGamalEncrypter::generateSessionPrivateKey	ElGamalEncrypter.cpp	/^void ElGamalEncrypter::generateSessionPrivateKey()$/;"	f	class:E_voting::ElGamalEncrypter	signature:()
+E_voting::ElGamalEncrypter::generateSessionPrivateKey	ElGamalEncrypter.h	/^    void generateSessionPrivateKey();$/;"	p	class:E_voting::ElGamalEncrypter	access:public	signature:()
+E_voting::ElGamalEncrypter::m_sessionRandom	ElGamalEncrypter.h	/^    key_type m_sessionRandom;$/;"	m	class:E_voting::ElGamalEncrypter	access:private
+E_voting::GmpWrapper	GmpWraper.h	/^class GmpWrapper$/;"	c	namespace:E_voting
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper()$/;"	f	class:E_voting::GmpWrapper	signature:()
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(const char* op, const size_t& base )$/;"	f	class:E_voting::GmpWrapper	signature:(const char* op, const size_t& base )
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(const std::string& op,const size_t& base)$/;"	f	class:E_voting::GmpWrapper	signature:(const std::string& op,const size_t& base)
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(unsigned long int op)$/;"	f	class:E_voting::GmpWrapper	signature:(unsigned long int op)
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.h	/^	GmpWrapper();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.h	/^	GmpWrapper(const GmpWrapper& op);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op)
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.h	/^	explicit GmpWrapper(const char*,const size_t& base =10);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const char*,const size_t& base =10)
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.h	/^	explicit GmpWrapper(const std::string&,const size_t& base =10);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const std::string&,const size_t& base =10)
+E_voting::GmpWrapper::GmpWrapper	GmpWraper.h	/^	explicit GmpWrapper(unsigned long int op);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(unsigned long int op)
+E_voting::GmpWrapper::get_next_prime	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::get_next_prime(const GmpWrapper& op)const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::get_next_prime	GmpWraper.h	/^	const GmpWrapper get_next_prime(const GmpWrapper & op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper & op) const
+E_voting::GmpWrapper::inverte	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::inverte(const GmpWrapper & base)const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & base) const
+E_voting::GmpWrapper::inverte	GmpWraper.h	/^	const GmpWrapper inverte(const GmpWrapper& base) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& base) const
+E_voting::GmpWrapper::is_even	GmpWraper.cpp	/^	const bool GmpWrapper::is_even() const$/;"	f	class:E_voting::GmpWrapper	signature:() const
+E_voting::GmpWrapper::is_even	GmpWraper.h	/^	const bool is_even() const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:() const
+E_voting::GmpWrapper::is_odd	GmpWraper.cpp	/^	const bool GmpWrapper::is_odd() const$/;"	f	class:E_voting::GmpWrapper	signature:() const
+E_voting::GmpWrapper::is_odd	GmpWraper.h	/^	const bool is_odd() const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:() const
+E_voting::GmpWrapper::lenght	GmpWraper.cpp	/^	const size_t GmpWrapper::lenght =1024;$/;"	m	class:E_voting::GmpWrapper	file:
+E_voting::GmpWrapper::lenght	GmpWraper.h	/^	static const size_t lenght;$/;"	m	class:E_voting::GmpWrapper	access:public
+E_voting::GmpWrapper::m_data	GmpWraper.h	/^	mpz_t m_data;$/;"	m	class:E_voting::GmpWrapper	access:private
+E_voting::GmpWrapper::max	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::max()$/;"	f	class:E_voting::GmpWrapper	signature:()
+E_voting::GmpWrapper::max	GmpWraper.h	/^	static const GmpWrapper max();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+E_voting::GmpWrapper::miller_rabin	GmpWraper.cpp	/^	const bool GmpWrapper::miller_rabin(const GmpWrapper & op, size_t  sec_par)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op, size_t sec_par)
+E_voting::GmpWrapper::miller_rabin	GmpWraper.h	/^	static const bool miller_rabin(const GmpWrapper &,size_t sec_par = 10);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper &,size_t sec_par = 10)
+E_voting::GmpWrapper::mod_exp	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::mod_exp(const GmpWrapper & exp,const GmpWrapper& mod)const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & exp,const GmpWrapper& mod) const
+E_voting::GmpWrapper::mod_exp	GmpWraper.h	/^	const GmpWrapper mod_exp(const GmpWrapper& exp,const GmpWrapper & mod) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& exp,const GmpWrapper & mod) const
+E_voting::GmpWrapper::operator !=	GmpWraper.cpp	/^	const bool GmpWrapper::operator != (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator !=	GmpWraper.h	/^	const bool operator != (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator %	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator%(const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator %	GmpWraper.h	/^	const GmpWrapper operator%(const GmpWrapper&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&) const
+E_voting::GmpWrapper::operator %=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator%=(const GmpWrapper & op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op)
+E_voting::GmpWrapper::operator %=	GmpWraper.h	/^	const GmpWrapper operator%=(const GmpWrapper&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&)
+E_voting::GmpWrapper::operator *	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator* ( const GmpWrapper& op2) const $/;"	f	class:E_voting::GmpWrapper	signature:( const GmpWrapper& op2) const
+E_voting::GmpWrapper::operator *	GmpWraper.h	/^	const GmpWrapper operator* ( const GmpWrapper& op2) const ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2) const
+E_voting::GmpWrapper::operator *=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator*=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+E_voting::GmpWrapper::operator *=	GmpWraper.h	/^	const GmpWrapper operator*= ( const GmpWrapper& op2) ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2)
+E_voting::GmpWrapper::operator +	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator+(const GmpWrapper & op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op) const
+E_voting::GmpWrapper::operator +	GmpWraper.h	/^	const GmpWrapper operator+ ( const GmpWrapper& op2) const ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2) const
+E_voting::GmpWrapper::operator ++	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator++()$/;"	f	class:E_voting::GmpWrapper	signature:()
+E_voting::GmpWrapper::operator ++	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator++(const int prefix)$/;"	f	class:E_voting::GmpWrapper	signature:(const int prefix)
+E_voting::GmpWrapper::operator ++	GmpWraper.h	/^	const GmpWrapper operator++();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+E_voting::GmpWrapper::operator ++	GmpWraper.h	/^	const GmpWrapper operator++(const int prefix);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const int prefix)
+E_voting::GmpWrapper::operator +=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator+=(const GmpWrapper & op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op)
+E_voting::GmpWrapper::operator +=	GmpWraper.h	/^	const GmpWrapper operator+= ( const GmpWrapper& op2) ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2)
+E_voting::GmpWrapper::operator -	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator-(const GmpWrapper& op)const $/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator -	GmpWraper.h	/^	const GmpWrapper operator-(const GmpWrapper& op2)const ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op2) const
+E_voting::GmpWrapper::operator --	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator--()$/;"	f	class:E_voting::GmpWrapper	signature:()
+E_voting::GmpWrapper::operator --	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator--(const int prefix)$/;"	f	class:E_voting::GmpWrapper	signature:(const int prefix)
+E_voting::GmpWrapper::operator --	GmpWraper.h	/^	const GmpWrapper operator--();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+E_voting::GmpWrapper::operator --	GmpWraper.h	/^	const GmpWrapper operator--(const int prefix);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const int prefix)
+E_voting::GmpWrapper::operator -=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator-=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+E_voting::GmpWrapper::operator -=	GmpWraper.h	/^	const GmpWrapper operator-=(const GmpWrapper& op2) ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op2)
+E_voting::GmpWrapper::operator /	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator\/(const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator /	GmpWraper.h	/^	const GmpWrapper operator\/(const GmpWrapper&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&) const
+E_voting::GmpWrapper::operator /=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator\/=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+E_voting::GmpWrapper::operator /=	GmpWraper.h	/^	const GmpWrapper operator\/=(const GmpWrapper&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&)
+E_voting::GmpWrapper::operator <	GmpWraper.cpp	/^	const bool GmpWrapper::operator <  (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator <	GmpWraper.h	/^	const bool operator <  (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator <<	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator<<(const mp_bitcnt_t& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op) const
+E_voting::GmpWrapper::operator <<	GmpWraper.h	/^	const GmpWrapper operator<<(const mp_bitcnt_t&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&) const
+E_voting::GmpWrapper::operator <<=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator<<=(const mp_bitcnt_t& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op)
+E_voting::GmpWrapper::operator <<=	GmpWraper.h	/^	const GmpWrapper operator<<=(const mp_bitcnt_t&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&)
+E_voting::GmpWrapper::operator <=	GmpWraper.cpp	/^	const bool GmpWrapper::operator <= (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator <=	GmpWraper.h	/^	const bool operator <= (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator =	GmpWraper.cpp	/^	GmpWrapper& GmpWrapper::operator=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+E_voting::GmpWrapper::operator =	GmpWraper.h	/^	GmpWrapper& operator=(const GmpWrapper&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&)
+E_voting::GmpWrapper::operator ==	GmpWraper.cpp	/^	const bool GmpWrapper::operator == (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator ==	GmpWraper.h	/^	const bool operator == (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator >	GmpWraper.cpp	/^	const bool GmpWrapper::operator >  (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator >	GmpWraper.h	/^	const bool operator >  (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator >=	GmpWraper.cpp	/^	const bool GmpWrapper::operator >= (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator >=	GmpWraper.h	/^	const bool operator >= (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+E_voting::GmpWrapper::operator >>	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator>>(const mp_bitcnt_t& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op) const
+E_voting::GmpWrapper::operator >>	GmpWraper.h	/^	const GmpWrapper operator>>(const mp_bitcnt_t&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&) const
+E_voting::GmpWrapper::operator >>=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator>>=(const mp_bitcnt_t& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op)
+E_voting::GmpWrapper::operator >>=	GmpWraper.h	/^	const GmpWrapper operator>>=(const mp_bitcnt_t&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&)
+E_voting::GmpWrapper::pow	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::pow(const unsigned long int & op_exp) const$/;"	f	class:E_voting::GmpWrapper	signature:(const unsigned long int & op_exp) const
+E_voting::GmpWrapper::pow	GmpWraper.h	/^	const GmpWrapper pow(const unsigned long int & op_exp) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const unsigned long int & op_exp) const
+E_voting::GmpWrapper::print	GmpWraper.cpp	/^	void GmpWrapper::print() const$/;"	f	class:E_voting::GmpWrapper	signature:() const
+E_voting::GmpWrapper::print	GmpWraper.h	/^	void print() const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:() const
+E_voting::GmpWrapper::rand	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::rand(const GmpWrapper & m)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & m)
+E_voting::GmpWrapper::rand	GmpWraper.h	/^	static const GmpWrapper rand(const GmpWrapper & m = max());$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper & m = max())
+E_voting::GmpWrapper::toString	GmpWraper.cpp	/^	const std::string GmpWrapper::toString(int base) const$/;"	f	class:E_voting::GmpWrapper	signature:(int base) const
+E_voting::GmpWrapper::toString	GmpWraper.h	/^	const std::string toString(int base = 10)const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(int base = 10) const
+E_voting::GmpWrapper::unit	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::unit = GmpWrapper(1u);$/;"	m	class:E_voting::GmpWrapper	file:
+E_voting::GmpWrapper::unit	GmpWraper.h	/^	static const GmpWrapper unit;$/;"	m	class:E_voting::GmpWrapper	access:public
+E_voting::GmpWrapper::zero	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::zero = GmpWrapper(0ul);$/;"	m	class:E_voting::GmpWrapper	file:
+E_voting::GmpWrapper::zero	GmpWraper.h	/^	static const GmpWrapper zero;$/;"	m	class:E_voting::GmpWrapper	access:public
+E_voting::GmpWrapper::~GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::~GmpWrapper()$/;"	f	class:E_voting::GmpWrapper	signature:()
+E_voting::GmpWrapper::~GmpWrapper	GmpWraper.h	/^	~GmpWrapper();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+E_voting::Larginteger	Larginteger.h	/^class Larginteger$/;"	c	namespace:E_voting
+E_voting::Larginteger::Larginteger	Larginteger.cpp	/^Larginteger::Larginteger()$/;"	f	class:E_voting::Larginteger	signature:()
+E_voting::Larginteger::Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(Larginteger&& op2)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger&& op2)
+E_voting::Larginteger::Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+E_voting::Larginteger::Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(const std::string& number)$/;"	f	class:E_voting::Larginteger	signature:(const std::string& number)
+E_voting::Larginteger::Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(val_type data)$/;"	f	class:E_voting::Larginteger	signature:(val_type data)
+E_voting::Larginteger::Larginteger	Larginteger.h	/^    Larginteger();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+E_voting::Larginteger::Larginteger	Larginteger.h	/^    Larginteger(Larginteger&&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(Larginteger&&)
+E_voting::Larginteger::Larginteger	Larginteger.h	/^    Larginteger(const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&)
+E_voting::Larginteger::Larginteger	Larginteger.h	/^    Larginteger(const std::string&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const std::string&)
+E_voting::Larginteger::Larginteger	Larginteger.h	/^    Larginteger(val_type);$/;"	p	class:E_voting::Larginteger	access:public	signature:(val_type)
+E_voting::Larginteger::at	Larginteger.cpp	/^val_type& Larginteger::at(size_t i)$/;"	f	class:E_voting::Larginteger	signature:(size_t i)
+E_voting::Larginteger::at	Larginteger.h	/^    val_type& at(size_t);$/;"	p	class:E_voting::Larginteger	access:public	signature:(size_t)
+E_voting::Larginteger::base	Larginteger.cpp	/^const val_type Larginteger::base() const$/;"	f	class:E_voting::Larginteger	signature:() const
+E_voting::Larginteger::base	Larginteger.h	/^    const val_type                 base() const;$/;"	p	class:E_voting::Larginteger	access:private	signature:() const
+E_voting::Larginteger::copy	Larginteger.cpp	/^void	    Larginteger::copy(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+E_voting::Larginteger::copy	Larginteger.h	/^    void                           copy(const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:private	signature:(const Larginteger&)
+E_voting::Larginteger::div	Larginteger.cpp	/^const std::pair<const Larginteger,const Larginteger> Larginteger::div(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::div	Larginteger.h	/^	const std::pair<const Larginteger,const Larginteger> div(const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::div2	Larginteger.cpp	/^const std::pair<const Larginteger,const Larginteger> Larginteger::div2(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::div2	Larginteger.h	/^	const std::pair<const Larginteger,const Larginteger> div2(const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::fill_0	Larginteger.cpp	/^void    Larginteger::fill_0()$/;"	f	class:E_voting::Larginteger	signature:()
+E_voting::Larginteger::fill_0	Larginteger.h	/^    void                           fill_0();$/;"	p	class:E_voting::Larginteger	access:private	signature:()
+E_voting::Larginteger::get_big_digit	Larginteger.cpp	/^val_type Larginteger::get_big_digit(const std::string& digit)$/;"	f	class:E_voting::Larginteger	signature:(const std::string& digit)
+E_voting::Larginteger::get_big_digit	Larginteger.h	/^    val_type                       get_big_digit(const std::string &);$/;"	p	class:E_voting::Larginteger	access:private	signature:(const std::string &)
+E_voting::Larginteger::get_length	Larginteger.h	/^	static const size_t get_length()$/;"	f	class:E_voting::Larginteger	access:public	signature:()
+E_voting::Larginteger::is_even	Larginteger.cpp	/^const bool Larginteger::is_even() const$/;"	f	class:E_voting::Larginteger	signature:() const
+E_voting::Larginteger::is_even	Larginteger.h	/^    const  bool                    is_even()const;$/;"	p	class:E_voting::Larginteger	access:public	signature:() const
+E_voting::Larginteger::is_odd	Larginteger.cpp	/^const bool Larginteger::is_odd() const$/;"	f	class:E_voting::Larginteger	signature:() const
+E_voting::Larginteger::is_odd	Larginteger.h	/^    const  bool                    is_odd()const;$/;"	p	class:E_voting::Larginteger	access:public	signature:() const
+E_voting::Larginteger::lenght	Larginteger.h	/^	static const size_t            lenght = size \/ (sizeof(val_type) *CHAR_BIT);$/;"	m	class:E_voting::Larginteger	access:private
+E_voting::Larginteger::m_data	Larginteger.h	/^    val_type*         m_data;$/;"	m	class:E_voting::Larginteger	access:private
+E_voting::Larginteger::max	Larginteger.cpp	/^const Larginteger Larginteger::max()$/;"	f	class:E_voting::Larginteger	signature:()
+E_voting::Larginteger::max	Larginteger.h	/^    static const Larginteger max();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+E_voting::Larginteger::mod_exp	Larginteger.cpp	/^const Larginteger Larginteger::mod_exp(Larginteger exp , const Larginteger& mod)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger exp , const Larginteger& mod)
+E_voting::Larginteger::mod_exp	Larginteger.h	/^    const Larginteger mod_exp(Larginteger , const Larginteger& mod);$/;"	p	class:E_voting::Larginteger	access:public	signature:(Larginteger , const Larginteger& mod)
+E_voting::Larginteger::operator !=	Larginteger.cpp	/^bool Larginteger::operator!=(const Larginteger& op2)const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator !=	Larginteger.h	/^	bool			  operator!= ( const Larginteger& ) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:( const Larginteger& ) const
+E_voting::Larginteger::operator %	Larginteger.cpp	/^const Larginteger Larginteger::operator%(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator %	Larginteger.h	/^    const Larginteger operator% (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator *	Larginteger.cpp	/^const Larginteger Larginteger::operator*(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator *	Larginteger.h	/^    const Larginteger operator*(const Larginteger& op2)const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator +	Larginteger.cpp	/^const Larginteger Larginteger::operator+(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator +	Larginteger.h	/^    const Larginteger operator+(const Larginteger &) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger &) const
+E_voting::Larginteger::operator ++	Larginteger.cpp	/^const Larginteger Larginteger::operator++()$/;"	f	class:E_voting::Larginteger	signature:()
+E_voting::Larginteger::operator ++	Larginteger.cpp	/^const Larginteger Larginteger::operator++(int postfix)$/;"	f	class:E_voting::Larginteger	signature:(int postfix)
+E_voting::Larginteger::operator ++	Larginteger.h	/^	const Larginteger operator++();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+E_voting::Larginteger::operator ++	Larginteger.h	/^	const Larginteger operator++(int postfix);$/;"	p	class:E_voting::Larginteger	access:public	signature:(int postfix)
+E_voting::Larginteger::operator +=	Larginteger.cpp	/^const Larginteger Larginteger::operator+=(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+E_voting::Larginteger::operator +=	Larginteger.h	/^    const Larginteger operator+=(const Larginteger& op2);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& op2)
+E_voting::Larginteger::operator -	Larginteger.cpp	/^const Larginteger Larginteger::operator-(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator -	Larginteger.h	/^    const Larginteger operator-(const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator --	Larginteger.cpp	/^const Larginteger Larginteger::operator--()$/;"	f	class:E_voting::Larginteger	signature:()
+E_voting::Larginteger::operator --	Larginteger.cpp	/^const Larginteger Larginteger::operator--(const int prefix)$/;"	f	class:E_voting::Larginteger	signature:(const int prefix)
+E_voting::Larginteger::operator --	Larginteger.h	/^	const Larginteger operator--();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+E_voting::Larginteger::operator --	Larginteger.h	/^	const Larginteger operator--(int prefix );$/;"	p	class:E_voting::Larginteger	access:public	signature:(int prefix )
+E_voting::Larginteger::operator /	Larginteger.cpp	/^const Larginteger Larginteger::operator\/(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator /	Larginteger.h	/^    const Larginteger operator\/ (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator <	Larginteger.cpp	/^bool Larginteger::operator<(const Larginteger & op2)const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger & op2) const
+E_voting::Larginteger::operator <	Larginteger.h	/^    bool              operator< (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator <<	Larginteger.cpp	/^const Larginteger Larginteger::operator<<(const unsigned int count) const$/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count) const
+E_voting::Larginteger::operator <<	Larginteger.h	/^	const Larginteger operator<<(const unsigned int count) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count) const
+E_voting::Larginteger::operator <<	Larginteger.h	/^friend const ostream& operator<<(const ostream&,const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:friend	signature:(const ostream&,const Larginteger&)
+E_voting::Larginteger::operator <<=	Larginteger.cpp	/^const Larginteger Larginteger::operator<<=(const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count)
+E_voting::Larginteger::operator <<=	Larginteger.h	/^    const Larginteger operator<<=(const unsigned int count);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count)
+E_voting::Larginteger::operator <=	Larginteger.cpp	/^bool Larginteger::operator<=(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator <=	Larginteger.h	/^    bool              operator<= (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator =	Larginteger.cpp	/^Larginteger& Larginteger::operator=(Larginteger&& op2)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger&& op2)
+E_voting::Larginteger::operator =	Larginteger.cpp	/^Larginteger& Larginteger::operator=(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+E_voting::Larginteger::operator =	Larginteger.h	/^    Larginteger&      operator=(Larginteger&&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(Larginteger&&)
+E_voting::Larginteger::operator =	Larginteger.h	/^    Larginteger&      operator=(const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&)
+E_voting::Larginteger::operator ==	Larginteger.cpp	/^bool Larginteger::operator==(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator ==	Larginteger.h	/^	bool			  operator== (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator >	Larginteger.cpp	/^bool Larginteger::operator>(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator >	Larginteger.h	/^    bool              operator> (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator >=	Larginteger.cpp	/^bool Larginteger::operator>=(const Larginteger& op2)const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::operator >=	Larginteger.h	/^    bool              operator>= (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+E_voting::Larginteger::operator >>	Larginteger.cpp	/^const Larginteger Larginteger::operator>>(const unsigned int count) const $/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count) const
+E_voting::Larginteger::operator >>	Larginteger.h	/^	const Larginteger operator>>(const unsigned int count) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count) const
+E_voting::Larginteger::operator >>	Larginteger.h	/^friend const istream& operator>>(const istream&,Larginteger&);$/;"	p	class:E_voting::Larginteger	access:friend	signature:(const istream&,Larginteger&)
+E_voting::Larginteger::operator >>=	Larginteger.cpp	/^const Larginteger Larginteger::operator>>=(const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count)
+E_voting::Larginteger::operator >>=	Larginteger.h	/^    const Larginteger operator>>=(const unsigned int count);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count)
+E_voting::Larginteger::pow	Larginteger.cpp	/^const Larginteger Larginteger::pow(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+E_voting::Larginteger::pow	Larginteger.h	/^    const Larginteger pow(const Larginteger& ) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& ) const
+E_voting::Larginteger::print	Larginteger.cpp	/^void Larginteger::print() const$/;"	f	class:E_voting::Larginteger	signature:() const
+E_voting::Larginteger::print	Larginteger.h	/^	void print()const ;$/;"	p	class:E_voting::Larginteger	access:public	signature:() const
+E_voting::Larginteger::rand	Larginteger.cpp	/^const Larginteger Larginteger::rand(const Larginteger& m  )$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& m )
+E_voting::Larginteger::rand	Larginteger.h	/^	static const Larginteger rand(const Larginteger& m = Larginteger::max());$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& m = Larginteger::max())
+E_voting::Larginteger::reverse	Larginteger.h	/^	static val_type                reverse(val_type val);$/;"	p	class:E_voting::Larginteger	access:private	signature:(val_type val)
+E_voting::Larginteger::shift_left	Larginteger.cpp	/^Larginteger& Larginteger::shift_left( Larginteger & val, const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:( Larginteger & val, const unsigned int count)
+E_voting::Larginteger::shift_left	Larginteger.h	/^    static Larginteger&			   shift_left( Larginteger& , unsigned int );$/;"	p	class:E_voting::Larginteger	access:private	signature:( Larginteger& , unsigned int )
+E_voting::Larginteger::shift_right	Larginteger.cpp	/^Larginteger& Larginteger::shift_right(Larginteger & val,const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger & val,const unsigned int count)
+E_voting::Larginteger::shift_right	Larginteger.h	/^    static Larginteger&			   shift_right(Larginteger& , unsigned int );$/;"	p	class:E_voting::Larginteger	access:private	signature:(Larginteger& , unsigned int )
+E_voting::Larginteger::unit	Larginteger.cpp	/^const  Larginteger Larginteger::unit = Larginteger(1);$/;"	m	class:E_voting::Larginteger	file:
+E_voting::Larginteger::unit	Larginteger.h	/^	static const Larginteger unit;$/;"	m	class:E_voting::Larginteger	access:public
+E_voting::Larginteger::zero	Larginteger.cpp	/^const  Larginteger Larginteger::zero = Larginteger(0);$/;"	m	class:E_voting::Larginteger	file:
+E_voting::Larginteger::zero	Larginteger.h	/^	static const Larginteger zero; $/;"	m	class:E_voting::Larginteger	access:public
+E_voting::Larginteger::~Larginteger	Larginteger.h	/^    ~Larginteger()$/;"	f	class:E_voting::Larginteger	access:public	signature:()
+E_voting::Primality	Primality.h	/^class Primality$/;"	c	namespace:E_voting
+E_voting::Primality::Primality	Primality.cpp	/^Primality::Primality():prime(3)$/;"	f	class:E_voting::Primality	signature:()
+E_voting::Primality::Primality	Primality.h	/^		Primality(const Primality&);$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality&)
+E_voting::Primality::Primality	Primality.h	/^        Primality();$/;"	p	class:E_voting::Primality	access:private	signature:()
+E_voting::Primality::Primality	Primality.h	/^        Primality(Primality&&) = delete;$/;"	p	class:E_voting::Primality	access:private	signature:(Primality&&)
+E_voting::Primality::Primality	Primality.h	/^        Primality(Primality&&);$/;"	p	class:E_voting::Primality	access:private	signature:(Primality&&)
+E_voting::Primality::Primality	Primality.h	/^        Primality(const Primality&) = delete;$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality&)
+E_voting::Primality::generator	Primality.cpp	/^const Primality::key_type Primality::generator(const key_type& p) {$/;"	f	class:E_voting::Primality	signature:(const key_type& p)
+E_voting::Primality::generator	Primality.h	/^		const key_type generator(const key_type& p);$/;"	p	class:E_voting::Primality	access:public	signature:(const key_type& p)
+E_voting::Primality::get_next_prime	Primality.cpp	/^const Primality::key_type Primality::get_next_prime()$/;"	f	class:E_voting::Primality	signature:()
+E_voting::Primality::get_next_prime	Primality.h	/^		const key_type get_next_prime();$/;"	p	class:E_voting::Primality	access:public	signature:()
+E_voting::Primality::get_random_integer	Primality.cpp	/^const  Primality::key_type Primality::get_random_integer(key_type max)$/;"	f	class:E_voting::Primality	signature:(key_type max)
+E_voting::Primality::get_random_integer	Primality.h	/^		const key_type get_random_integer(key_type max = key_type::max());$/;"	p	class:E_voting::Primality	access:public	signature:(key_type max = key_type::max())
+E_voting::Primality::get_random_prime	Primality.cpp	/^const Primality::key_type Primality::get_random_prime()$/;"	f	class:E_voting::Primality	signature:()
+E_voting::Primality::get_random_prime	Primality.h	/^        const key_type get_random_prime();$/;"	p	class:E_voting::Primality	access:public	signature:()
+E_voting::Primality::instance	Primality.cpp	/^Primality& Primality::instance()$/;"	f	class:E_voting::Primality	signature:()
+E_voting::Primality::instance	Primality.h	/^	    static Primality& instance();$/;"	p	class:E_voting::Primality	access:public	signature:()
+E_voting::Primality::key_type	Primality.h	/^	typedef GmpWrapper key_type;$/;"	t	class:E_voting::Primality	access:public
+E_voting::Primality::miller_rabin_test	Primality.cpp	/^bool    Primality::miller_rabin_test(const key_type & op, size_t sec_par)$/;"	f	class:E_voting::Primality	signature:(const key_type & op, size_t sec_par)
+E_voting::Primality::miller_rabin_test	Primality.h	/^        bool miller_rabin_test(const key_type & op, size_t sec_par=10);$/;"	p	class:E_voting::Primality	access:private	signature:(const key_type & op, size_t sec_par=10)
+E_voting::Primality::operator =	Primality.h	/^        Primality& operator=(const Primality &) = delete;$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality &)
+E_voting::Primality::operator =	Primality.h	/^        Primality& operator=(const Primality &);$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality &)
+E_voting::Primality::prime	Primality.h	/^        key_type prime ;$/;"	m	class:E_voting::Primality	access:private
+E_voting::Primality::prime_by_miller_rabin	Primality.cpp	/^const Primality::key_type Primality::prime_by_miller_rabin(key_type max)$/;"	f	class:E_voting::Primality	signature:(key_type max)
+E_voting::Primality::prime_by_miller_rabin	Primality.h	/^        const key_type prime_by_miller_rabin(key_type max = key_type::max());  $/;"	p	class:E_voting::Primality	access:public	signature:(key_type max = key_type::max())
+E_voting::size	Larginteger.h	/^const val_type size =2048;$/;"	m	namespace:E_voting
+E_voting::val_type	Larginteger.h	/^typedef unsigned long long int val_type;$/;"	t	namespace:E_voting
+ElGamalBase	ElGamalBase.cpp	/^	ElGamalBase::ElGamalBase()$/;"	f	class:E_voting::ElGamalBase	signature:()
+ElGamalBase	ElGamalBase.h	/^	ElGamalBase();$/;"	p	class:E_voting::ElGamalBase	access:public	signature:()
+ElGamalBase	ElGamalBase.h	/^class ElGamalBase$/;"	c	namespace:E_voting
+ElGamalDecrypter	ElGamalDecrypter.cpp	/^	ElGamalDecrypter::ElGamalDecrypter():ElGamalBase()$/;"	f	class:E_voting::ElGamalDecrypter	signature:()
+ElGamalDecrypter	ElGamalDecrypter.cpp	/^	ElGamalDecrypter::ElGamalDecrypter(const key_type& op_prvatekey)$/;"	f	class:E_voting::ElGamalDecrypter	signature:(const key_type& op_prvatekey)
+ElGamalDecrypter	ElGamalDecrypter.h	/^		ElGamalDecrypter();$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:()
+ElGamalDecrypter	ElGamalDecrypter.h	/^		ElGamalDecrypter(const key_type &);$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const key_type &)
+ElGamalDecrypter	ElGamalDecrypter.h	/^	class ElGamalDecrypter: public ElGamalBase$/;"	c	namespace:E_voting	inherits:ElGamalBase
+ElGamalEncrypter	ElGamalEncrypter.cpp	/^ElGamalEncrypter::ElGamalEncrypter():ElGamalBase()$/;"	f	class:E_voting::ElGamalEncrypter	signature:()
+ElGamalEncrypter	ElGamalEncrypter.h	/^class ElGamalEncrypter: public ElGamalBase$/;"	c	namespace:E_voting	inherits:ElGamalBase
+GMP_WRAPPER_H	GmpWraper.h	5;"	d
+GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper()$/;"	f	class:E_voting::GmpWrapper	signature:()
+GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(const char* op, const size_t& base )$/;"	f	class:E_voting::GmpWrapper	signature:(const char* op, const size_t& base )
+GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(const std::string& op,const size_t& base)$/;"	f	class:E_voting::GmpWrapper	signature:(const std::string& op,const size_t& base)
+GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::GmpWrapper(unsigned long int op)$/;"	f	class:E_voting::GmpWrapper	signature:(unsigned long int op)
+GmpWrapper	GmpWraper.h	/^	GmpWrapper();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+GmpWrapper	GmpWraper.h	/^	GmpWrapper(const GmpWrapper& op);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op)
+GmpWrapper	GmpWraper.h	/^	explicit GmpWrapper(const char*,const size_t& base =10);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const char*,const size_t& base =10)
+GmpWrapper	GmpWraper.h	/^	explicit GmpWrapper(const std::string&,const size_t& base =10);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const std::string&,const size_t& base =10)
+GmpWrapper	GmpWraper.h	/^	explicit GmpWrapper(unsigned long int op);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(unsigned long int op)
+GmpWrapper	GmpWraper.h	/^class GmpWrapper$/;"	c	namespace:E_voting
+INCLUDE_DIRS	Makefile	/^INCLUDE_DIRS = -I. -I..\/third_parth\/gmp\/include $/;"	m
+LD	Makefile	/^LD = g++$/;"	m
+LD_FLAGS	Makefile	/^LD_FLAGS = -static -lgmp -static -std=c++0x$/;"	m
+Larginteger	Larginteger.cpp	/^Larginteger::Larginteger()$/;"	f	class:E_voting::Larginteger	signature:()
+Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(Larginteger&& op2)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger&& op2)
+Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(const std::string& number)$/;"	f	class:E_voting::Larginteger	signature:(const std::string& number)
+Larginteger	Larginteger.cpp	/^Larginteger::Larginteger(val_type data)$/;"	f	class:E_voting::Larginteger	signature:(val_type data)
+Larginteger	Larginteger.h	/^    Larginteger();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+Larginteger	Larginteger.h	/^    Larginteger(Larginteger&&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(Larginteger&&)
+Larginteger	Larginteger.h	/^    Larginteger(const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&)
+Larginteger	Larginteger.h	/^    Larginteger(const std::string&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const std::string&)
+Larginteger	Larginteger.h	/^    Larginteger(val_type);$/;"	p	class:E_voting::Larginteger	access:public	signature:(val_type)
+Larginteger	Larginteger.h	/^class Larginteger$/;"	c	namespace:E_voting
+Larginteger_H	Larginteger.h	2;"	d
+OBJ	Makefile	/^OBJ = $(subst .cpp,.o,$(SRC) )$/;"	m
+PRIMALITY_H	Primality.h	4;"	d
+Primality	Primality.cpp	/^Primality::Primality():prime(3)$/;"	f	class:E_voting::Primality	signature:()
+Primality	Primality.h	/^		Primality(const Primality&);$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality&)
+Primality	Primality.h	/^        Primality();$/;"	p	class:E_voting::Primality	access:private	signature:()
+Primality	Primality.h	/^        Primality(Primality&&) = delete;$/;"	p	class:E_voting::Primality	access:private	signature:(Primality&&)
+Primality	Primality.h	/^        Primality(Primality&&);$/;"	p	class:E_voting::Primality	access:private	signature:(Primality&&)
+Primality	Primality.h	/^        Primality(const Primality&) = delete;$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality&)
+Primality	Primality.h	/^class Primality$/;"	c	namespace:E_voting
+SRC	Makefile	/^SRC = ElGamalBase.cpp  ElGamalDecrypter.cpp  ElGamalEncrypter.cpp  GmpWraper.cpp  Larginteger.cpp   Primality.cpp main.cpp$/;"	m
+addElection	DBManager.cpp	/^void DBManager::addElection(const Chiphertext_type & value)$/;"	f	class:E_voting::DBManager	signature:(const Chiphertext_type & value)
+addElection	DBManager.h	/^    void addElection(const Chiphertext_type&);$/;"	p	class:E_voting::DBManager	access:public	signature:(const Chiphertext_type&)
+addElector	DBManager.cpp	/^void DBManager::addElector(const Chiphertext_type & value)$/;"	f	class:E_voting::DBManager	signature:(const Chiphertext_type & value)
+addElector	DBManager.h	/^    void addElector(const Chiphertext_type&);$/;"	p	class:E_voting::DBManager	access:public	signature:(const Chiphertext_type&)
+at	Larginteger.cpp	/^val_type& Larginteger::at(size_t i)$/;"	f	class:E_voting::Larginteger	signature:(size_t i)
+at	Larginteger.h	/^    val_type& at(size_t);$/;"	p	class:E_voting::Larginteger	access:public	signature:(size_t)
+base	Larginteger.cpp	/^const val_type Larginteger::base() const$/;"	f	class:E_voting::Larginteger	signature:() const
+base	Larginteger.h	/^    const val_type                 base() const;$/;"	p	class:E_voting::Larginteger	access:private	signature:() const
+checkConsitency	DBManager.cpp	/^bool DBManager::checkConsitency()$/;"	f	class:E_voting::DBManager	signature:()
+checkConsitency	DBManager.h	/^    bool checkConsitency();$/;"	p	class:E_voting::DBManager	access:private	signature:()
+copy	Larginteger.cpp	/^void	    Larginteger::copy(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+copy	Larginteger.h	/^    void                           copy(const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:private	signature:(const Larginteger&)
+decrypt	ElGamalDecrypter.cpp	/^	const ElGamalDecrypter::key_type ElGamalDecrypter::decrypt(const std::pair<key_type,key_type> & op_chiphertext)const $/;"	f	class:E_voting::ElGamalDecrypter	signature:(const std::pair<key_type,key_type> & op_chiphertext) const
+decrypt	ElGamalDecrypter.h	/^		const key_type decrypt(const std::pair<key_type,key_type>& op_chpihertext) const ;$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const std::pair<key_type,key_type>& op_chpihertext) const
+div	Larginteger.cpp	/^const std::pair<const Larginteger,const Larginteger> Larginteger::div(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+div	Larginteger.h	/^	const std::pair<const Larginteger,const Larginteger> div(const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+div2	Larginteger.cpp	/^const std::pair<const Larginteger,const Larginteger> Larginteger::div2(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+div2	Larginteger.h	/^	const std::pair<const Larginteger,const Larginteger> div2(const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+encrypt	ElGamalEncrypter.cpp	/^std::pair<ElGamalEncrypter::key_type,ElGamalEncrypter::key_type> ElGamalEncrypter::encrypt(const key_type& op_message)$/;"	f	class:E_voting::ElGamalEncrypter	signature:(const key_type& op_message)
+encrypt	ElGamalEncrypter.h	/^	std::pair<key_type,key_type> encrypt(const key_type &);$/;"	p	class:E_voting::ElGamalEncrypter	access:public	signature:(const key_type &)
+fill_0	Larginteger.cpp	/^void    Larginteger::fill_0()$/;"	f	class:E_voting::Larginteger	signature:()
+fill_0	Larginteger.h	/^    void                           fill_0();$/;"	p	class:E_voting::Larginteger	access:private	signature:()
+finalize	DBManager.cpp	/^void DBManager::finalize()$/;"	f	class:E_voting::DBManager	signature:()
+finalize	DBManager.h	/^    void finalize();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+generateSessionPrivateKey	ElGamalEncrypter.cpp	/^void ElGamalEncrypter::generateSessionPrivateKey()$/;"	f	class:E_voting::ElGamalEncrypter	signature:()
+generateSessionPrivateKey	ElGamalEncrypter.h	/^    void generateSessionPrivateKey();$/;"	p	class:E_voting::ElGamalEncrypter	access:public	signature:()
+generate_private_key	ElGamalDecrypter.cpp	/^	void ElGamalDecrypter::generate_private_key()$/;"	f	class:E_voting::ElGamalDecrypter	signature:()
+generate_private_key	ElGamalDecrypter.h	/^		void generate_private_key();$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:()
+generator	Primality.cpp	/^const Primality::key_type Primality::generator(const key_type& p) {$/;"	f	class:E_voting::Primality	signature:(const key_type& p)
+generator	Primality.h	/^		const key_type generator(const key_type& p);$/;"	p	class:E_voting::Primality	access:public	signature:(const key_type& p)
+getBase	ElGamalBase.cpp	/^ElGamalBase::key_type ElGamalBase::getBase() const$/;"	f	class:E_voting::ElGamalBase	signature:() const
+getBase	ElGamalBase.h	/^    virtual key_type getBase()const;$/;"	p	class:E_voting::ElGamalBase	access:public	signature:() const
+getGenerator	ElGamalBase.cpp	/^ElGamalBase::key_type ElGamalBase::getGenerator()const$/;"	f	class:E_voting::ElGamalBase	signature:() const
+getGenerator	ElGamalBase.h	/^    virtual key_type getGenerator() const ;$/;"	p	class:E_voting::ElGamalBase	access:public	signature:() const
+getY	ElGamalBase.cpp	/^ElGamalBase::key_type ElGamalBase::getY() const $/;"	f	class:E_voting::ElGamalBase	signature:() const
+getY	ElGamalBase.h	/^    virtual key_type getY()const;$/;"	p	class:E_voting::ElGamalBase	access:public	signature:() const
+get_big_digit	Larginteger.cpp	/^val_type Larginteger::get_big_digit(const std::string& digit)$/;"	f	class:E_voting::Larginteger	signature:(const std::string& digit)
+get_big_digit	Larginteger.h	/^    val_type                       get_big_digit(const std::string &);$/;"	p	class:E_voting::Larginteger	access:private	signature:(const std::string &)
+get_length	Larginteger.h	/^	static const size_t get_length()$/;"	f	class:E_voting::Larginteger	access:public	signature:()
+get_next_prime	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::get_next_prime(const GmpWrapper& op)const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+get_next_prime	GmpWraper.h	/^	const GmpWrapper get_next_prime(const GmpWrapper & op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper & op) const
+get_next_prime	Primality.cpp	/^const Primality::key_type Primality::get_next_prime()$/;"	f	class:E_voting::Primality	signature:()
+get_next_prime	Primality.h	/^		const key_type get_next_prime();$/;"	p	class:E_voting::Primality	access:public	signature:()
+get_public_key	ElGamalBase.cpp	/^void	ElGamalBase::get_public_key(ElGamalBase* op2)$/;"	f	class:E_voting::ElGamalBase	signature:(ElGamalBase* op2)
+get_public_key	ElGamalBase.h	/^	virtual void get_public_key(ElGamalBase*);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(ElGamalBase*)
+get_random_integer	Primality.cpp	/^const  Primality::key_type Primality::get_random_integer(key_type max)$/;"	f	class:E_voting::Primality	signature:(key_type max)
+get_random_integer	Primality.h	/^		const key_type get_random_integer(key_type max = key_type::max());$/;"	p	class:E_voting::Primality	access:public	signature:(key_type max = key_type::max())
+get_random_prime	Primality.cpp	/^const Primality::key_type Primality::get_random_prime()$/;"	f	class:E_voting::Primality	signature:()
+get_random_prime	Primality.h	/^        const key_type get_random_prime();$/;"	p	class:E_voting::Primality	access:public	signature:()
+init	DBManager.cpp	/^int DBManager::init()$/;"	f	class:E_voting::DBManager	signature:()
+init	DBManager.h	/^    int init();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+instance	Primality.cpp	/^Primality& Primality::instance()$/;"	f	class:E_voting::Primality	signature:()
+instance	Primality.h	/^	    static Primality& instance();$/;"	p	class:E_voting::Primality	access:public	signature:()
+inverte	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::inverte(const GmpWrapper & base)const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & base) const
+inverte	GmpWraper.h	/^	const GmpWrapper inverte(const GmpWrapper& base) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& base) const
+is_even	GmpWraper.cpp	/^	const bool GmpWrapper::is_even() const$/;"	f	class:E_voting::GmpWrapper	signature:() const
+is_even	GmpWraper.h	/^	const bool is_even() const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:() const
+is_even	Larginteger.cpp	/^const bool Larginteger::is_even() const$/;"	f	class:E_voting::Larginteger	signature:() const
+is_even	Larginteger.h	/^    const  bool                    is_even()const;$/;"	p	class:E_voting::Larginteger	access:public	signature:() const
+is_odd	GmpWraper.cpp	/^	const bool GmpWrapper::is_odd() const$/;"	f	class:E_voting::GmpWrapper	signature:() const
+is_odd	GmpWraper.h	/^	const bool is_odd() const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:() const
+is_odd	Larginteger.cpp	/^const bool Larginteger::is_odd() const$/;"	f	class:E_voting::Larginteger	signature:() const
+is_odd	Larginteger.h	/^    const  bool                    is_odd()const;$/;"	p	class:E_voting::Larginteger	access:public	signature:() const
+key_type	ElGamalBase.h	/^	typedef GmpWrapper key_type;$/;"	t	class:E_voting::ElGamalBase	access:public
+key_type	Primality.h	/^	typedef GmpWrapper key_type;$/;"	t	class:E_voting::Primality	access:public
+lenght	GmpWraper.cpp	/^	const size_t GmpWrapper::lenght =1024;$/;"	m	class:E_voting::GmpWrapper	file:
+lenght	GmpWraper.h	/^	static const size_t lenght;$/;"	m	class:E_voting::GmpWrapper	access:public
+lenght	Larginteger.h	/^	static const size_t            lenght = size \/ (sizeof(val_type) *CHAR_BIT);$/;"	m	class:E_voting::Larginteger	access:private
+m_data	GmpWraper.h	/^	mpz_t m_data;$/;"	m	class:E_voting::GmpWrapper	access:private
+m_data	Larginteger.h	/^    val_type*         m_data;$/;"	m	class:E_voting::Larginteger	access:private
+m_election	DBManager.h	/^    Chiphertext_type m_election;$/;"	m	class:E_voting::DBManager	access:private
+m_elector	DBManager.h	/^    Chiphertext_type m_elector;$/;"	m	class:E_voting::DBManager	access:private
+m_file	DBManager.h	/^    std::ofstream m_file;$/;"	m	class:E_voting::DBManager	access:private
+m_finalized	DBManager.h	/^    bool m_finalized;$/;"	m	class:E_voting::DBManager	access:private
+m_generator	ElGamalBase.h	/^	key_type m_generator;$/;"	m	class:E_voting::ElGamalBase	access:protected
+m_lastError	DBManager.h	/^    static std::string m_lastError;$/;"	m	class:E_voting::DBManager	access:private
+m_nullValue	DBManager.cpp	/^const Chiphertext_type DBManager::m_nullValue = "";$/;"	m	class:E_voting::DBManager	file:
+m_nullValue	DBManager.h	/^    static const Chiphertext_type m_nullValue;$/;"	m	class:E_voting::DBManager	access:private
+m_prime	ElGamalBase.h	/^	key_type m_prime;$/;"	m	class:E_voting::ElGamalBase	access:protected
+m_privatkey	ElGamalDecrypter.h	/^		key_type m_privatkey;$/;"	m	class:E_voting::ElGamalDecrypter	access:private
+m_sessionRandom	ElGamalEncrypter.h	/^    key_type m_sessionRandom;$/;"	m	class:E_voting::ElGamalEncrypter	access:private
+m_y	ElGamalBase.h	/^	key_type m_y;$/;"	m	class:E_voting::ElGamalBase	access:protected
+main	ankap.cpp	/^int main()$/;"	f	signature:()
+main	main.cpp	/^int main(int argc,char* argv[])$/;"	f	signature:(int argc,char* argv[])
+max	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::max()$/;"	f	class:E_voting::GmpWrapper	signature:()
+max	GmpWraper.h	/^	static const GmpWrapper max();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+max	Larginteger.cpp	/^const Larginteger Larginteger::max()$/;"	f	class:E_voting::Larginteger	signature:()
+max	Larginteger.h	/^    static const Larginteger max();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+miller_rabin	GmpWraper.cpp	/^	const bool GmpWrapper::miller_rabin(const GmpWrapper & op, size_t  sec_par)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op, size_t sec_par)
+miller_rabin	GmpWraper.h	/^	static const bool miller_rabin(const GmpWrapper &,size_t sec_par = 10);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper &,size_t sec_par = 10)
+miller_rabin_test	Primality.cpp	/^bool    Primality::miller_rabin_test(const key_type & op, size_t sec_par)$/;"	f	class:E_voting::Primality	signature:(const key_type & op, size_t sec_par)
+miller_rabin_test	Primality.h	/^        bool miller_rabin_test(const key_type & op, size_t sec_par=10);$/;"	p	class:E_voting::Primality	access:private	signature:(const key_type & op, size_t sec_par=10)
+mod_exp	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::mod_exp(const GmpWrapper & exp,const GmpWrapper& mod)const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & exp,const GmpWrapper& mod) const
+mod_exp	GmpWraper.h	/^	const GmpWrapper mod_exp(const GmpWrapper& exp,const GmpWrapper & mod) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& exp,const GmpWrapper & mod) const
+mod_exp	Larginteger.cpp	/^const Larginteger Larginteger::mod_exp(Larginteger exp , const Larginteger& mod)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger exp , const Larginteger& mod)
+mod_exp	Larginteger.h	/^    const Larginteger mod_exp(Larginteger , const Larginteger& mod);$/;"	p	class:E_voting::Larginteger	access:public	signature:(Larginteger , const Larginteger& mod)
+operator !=	GmpWraper.cpp	/^	const bool GmpWrapper::operator != (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator !=	GmpWraper.h	/^	const bool operator != (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+operator !=	Larginteger.cpp	/^bool Larginteger::operator!=(const Larginteger& op2)const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator !=	Larginteger.h	/^	bool			  operator!= ( const Larginteger& ) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:( const Larginteger& ) const
+operator %	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator%(const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator %	GmpWraper.h	/^	const GmpWrapper operator%(const GmpWrapper&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&) const
+operator %	Larginteger.cpp	/^const Larginteger Larginteger::operator%(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator %	Larginteger.h	/^    const Larginteger operator% (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator %=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator%=(const GmpWrapper & op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op)
+operator %=	GmpWraper.h	/^	const GmpWrapper operator%=(const GmpWrapper&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&)
+operator *	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator* ( const GmpWrapper& op2) const $/;"	f	class:E_voting::GmpWrapper	signature:( const GmpWrapper& op2) const
+operator *	GmpWraper.h	/^	const GmpWrapper operator* ( const GmpWrapper& op2) const ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2) const
+operator *	Larginteger.cpp	/^const Larginteger Larginteger::operator*(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator *	Larginteger.h	/^    const Larginteger operator*(const Larginteger& op2)const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& op2) const
+operator *=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator*=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+operator *=	GmpWraper.h	/^	const GmpWrapper operator*= ( const GmpWrapper& op2) ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2)
+operator +	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator+(const GmpWrapper & op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op) const
+operator +	GmpWraper.h	/^	const GmpWrapper operator+ ( const GmpWrapper& op2) const ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2) const
+operator +	Larginteger.cpp	/^const Larginteger Larginteger::operator+(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator +	Larginteger.h	/^    const Larginteger operator+(const Larginteger &) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger &) const
+operator ++	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator++()$/;"	f	class:E_voting::GmpWrapper	signature:()
+operator ++	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator++(const int prefix)$/;"	f	class:E_voting::GmpWrapper	signature:(const int prefix)
+operator ++	GmpWraper.h	/^	const GmpWrapper operator++();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+operator ++	GmpWraper.h	/^	const GmpWrapper operator++(const int prefix);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const int prefix)
+operator ++	Larginteger.cpp	/^const Larginteger Larginteger::operator++()$/;"	f	class:E_voting::Larginteger	signature:()
+operator ++	Larginteger.cpp	/^const Larginteger Larginteger::operator++(int postfix)$/;"	f	class:E_voting::Larginteger	signature:(int postfix)
+operator ++	Larginteger.h	/^	const Larginteger operator++();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+operator ++	Larginteger.h	/^	const Larginteger operator++(int postfix);$/;"	p	class:E_voting::Larginteger	access:public	signature:(int postfix)
+operator +=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator+=(const GmpWrapper & op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & op)
+operator +=	GmpWraper.h	/^	const GmpWrapper operator+= ( const GmpWrapper& op2) ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:( const GmpWrapper& op2)
+operator +=	Larginteger.cpp	/^const Larginteger Larginteger::operator+=(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+operator +=	Larginteger.h	/^    const Larginteger operator+=(const Larginteger& op2);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& op2)
+operator -	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator-(const GmpWrapper& op)const $/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator -	GmpWraper.h	/^	const GmpWrapper operator-(const GmpWrapper& op2)const ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op2) const
+operator -	Larginteger.cpp	/^const Larginteger Larginteger::operator-(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator -	Larginteger.h	/^    const Larginteger operator-(const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator --	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator--()$/;"	f	class:E_voting::GmpWrapper	signature:()
+operator --	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator--(const int prefix)$/;"	f	class:E_voting::GmpWrapper	signature:(const int prefix)
+operator --	GmpWraper.h	/^	const GmpWrapper operator--();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+operator --	GmpWraper.h	/^	const GmpWrapper operator--(const int prefix);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const int prefix)
+operator --	Larginteger.cpp	/^const Larginteger Larginteger::operator--()$/;"	f	class:E_voting::Larginteger	signature:()
+operator --	Larginteger.cpp	/^const Larginteger Larginteger::operator--(const int prefix)$/;"	f	class:E_voting::Larginteger	signature:(const int prefix)
+operator --	Larginteger.h	/^	const Larginteger operator--();$/;"	p	class:E_voting::Larginteger	access:public	signature:()
+operator --	Larginteger.h	/^	const Larginteger operator--(int prefix );$/;"	p	class:E_voting::Larginteger	access:public	signature:(int prefix )
+operator -=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator-=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+operator -=	GmpWraper.h	/^	const GmpWrapper operator-=(const GmpWrapper& op2) ;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op2)
+operator /	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator\/(const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator /	GmpWraper.h	/^	const GmpWrapper operator\/(const GmpWrapper&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&) const
+operator /	Larginteger.cpp	/^const Larginteger Larginteger::operator\/(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator /	Larginteger.h	/^    const Larginteger operator\/ (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator /=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator\/=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+operator /=	GmpWraper.h	/^	const GmpWrapper operator\/=(const GmpWrapper&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&)
+operator <	GmpWraper.cpp	/^	const bool GmpWrapper::operator <  (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator <	GmpWraper.h	/^	const bool operator <  (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+operator <	Larginteger.cpp	/^bool Larginteger::operator<(const Larginteger & op2)const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger & op2) const
+operator <	Larginteger.h	/^    bool              operator< (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator <<	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator<<(const mp_bitcnt_t& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op) const
+operator <<	GmpWraper.h	/^	const GmpWrapper operator<<(const mp_bitcnt_t&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&) const
+operator <<	Larginteger.cpp	/^const Larginteger Larginteger::operator<<(const unsigned int count) const$/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count) const
+operator <<	Larginteger.h	/^	const Larginteger operator<<(const unsigned int count) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count) const
+operator <<	Larginteger.h	/^friend const ostream& operator<<(const ostream&,const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:friend	signature:(const ostream&,const Larginteger&)
+operator <<=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator<<=(const mp_bitcnt_t& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op)
+operator <<=	GmpWraper.h	/^	const GmpWrapper operator<<=(const mp_bitcnt_t&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&)
+operator <<=	Larginteger.cpp	/^const Larginteger Larginteger::operator<<=(const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count)
+operator <<=	Larginteger.h	/^    const Larginteger operator<<=(const unsigned int count);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count)
+operator <=	GmpWraper.cpp	/^	const bool GmpWrapper::operator <= (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator <=	GmpWraper.h	/^	const bool operator <= (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+operator <=	Larginteger.cpp	/^bool Larginteger::operator<=(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator <=	Larginteger.h	/^    bool              operator<= (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator =	GmpWraper.cpp	/^	GmpWrapper& GmpWrapper::operator=(const GmpWrapper& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op)
+operator =	GmpWraper.h	/^	GmpWrapper& operator=(const GmpWrapper&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper&)
+operator =	Larginteger.cpp	/^Larginteger& Larginteger::operator=(Larginteger&& op2)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger&& op2)
+operator =	Larginteger.cpp	/^Larginteger& Larginteger::operator=(const Larginteger& op2)$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2)
+operator =	Larginteger.h	/^    Larginteger&      operator=(Larginteger&&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(Larginteger&&)
+operator =	Larginteger.h	/^    Larginteger&      operator=(const Larginteger&);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&)
+operator =	Primality.h	/^        Primality& operator=(const Primality &) = delete;$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality &)
+operator =	Primality.h	/^        Primality& operator=(const Primality &);$/;"	p	class:E_voting::Primality	access:private	signature:(const Primality &)
+operator ==	GmpWraper.cpp	/^	const bool GmpWrapper::operator == (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator ==	GmpWraper.h	/^	const bool operator == (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+operator ==	Larginteger.cpp	/^bool Larginteger::operator==(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator ==	Larginteger.h	/^	bool			  operator== (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator >	GmpWraper.cpp	/^	const bool GmpWrapper::operator >  (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator >	GmpWraper.h	/^	const bool operator >  (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+operator >	Larginteger.cpp	/^bool Larginteger::operator>(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator >	Larginteger.h	/^    bool              operator> (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator >=	GmpWraper.cpp	/^	const bool GmpWrapper::operator >= (const GmpWrapper& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper& op) const
+operator >=	GmpWraper.h	/^	const bool operator >= (const GmpWrapper& op) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper& op) const
+operator >=	Larginteger.cpp	/^bool Larginteger::operator>=(const Larginteger& op2)const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+operator >=	Larginteger.h	/^    bool              operator>= (const Larginteger&) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger&) const
+operator >>	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator>>(const mp_bitcnt_t& op) const$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op) const
+operator >>	GmpWraper.h	/^	const GmpWrapper operator>>(const mp_bitcnt_t&) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&) const
+operator >>	Larginteger.cpp	/^const Larginteger Larginteger::operator>>(const unsigned int count) const $/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count) const
+operator >>	Larginteger.h	/^	const Larginteger operator>>(const unsigned int count) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count) const
+operator >>	Larginteger.h	/^friend const istream& operator>>(const istream&,Larginteger&);$/;"	p	class:E_voting::Larginteger	access:friend	signature:(const istream&,Larginteger&)
+operator >>=	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::operator>>=(const mp_bitcnt_t& op)$/;"	f	class:E_voting::GmpWrapper	signature:(const mp_bitcnt_t& op)
+operator >>=	GmpWraper.h	/^	const GmpWrapper operator>>=(const mp_bitcnt_t&);$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const mp_bitcnt_t&)
+operator >>=	Larginteger.cpp	/^const Larginteger Larginteger::operator>>=(const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:(const unsigned int count)
+operator >>=	Larginteger.h	/^    const Larginteger operator>>=(const unsigned int count);$/;"	p	class:E_voting::Larginteger	access:public	signature:(const unsigned int count)
+pow	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::pow(const unsigned long int & op_exp) const$/;"	f	class:E_voting::GmpWrapper	signature:(const unsigned long int & op_exp) const
+pow	GmpWraper.h	/^	const GmpWrapper pow(const unsigned long int & op_exp) const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const unsigned long int & op_exp) const
+pow	Larginteger.cpp	/^const Larginteger Larginteger::pow(const Larginteger& op2) const$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& op2) const
+pow	Larginteger.h	/^    const Larginteger pow(const Larginteger& ) const;$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& ) const
+prime	Primality.h	/^        key_type prime ;$/;"	m	class:E_voting::Primality	access:private
+prime_by_miller_rabin	Primality.cpp	/^const Primality::key_type Primality::prime_by_miller_rabin(key_type max)$/;"	f	class:E_voting::Primality	signature:(key_type max)
+prime_by_miller_rabin	Primality.h	/^        const key_type prime_by_miller_rabin(key_type max = key_type::max());  $/;"	p	class:E_voting::Primality	access:public	signature:(key_type max = key_type::max())
+print	GmpWraper.cpp	/^	void GmpWrapper::print() const$/;"	f	class:E_voting::GmpWrapper	signature:() const
+print	GmpWraper.h	/^	void print() const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:() const
+print	Larginteger.cpp	/^void Larginteger::print() const$/;"	f	class:E_voting::Larginteger	signature:() const
+print	Larginteger.h	/^	void print()const ;$/;"	p	class:E_voting::Larginteger	access:public	signature:() const
+rand	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::rand(const GmpWrapper & m)$/;"	f	class:E_voting::GmpWrapper	signature:(const GmpWrapper & m)
+rand	GmpWraper.h	/^	static const GmpWrapper rand(const GmpWrapper & m = max());$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(const GmpWrapper & m = max())
+rand	Larginteger.cpp	/^const Larginteger Larginteger::rand(const Larginteger& m  )$/;"	f	class:E_voting::Larginteger	signature:(const Larginteger& m )
+rand	Larginteger.h	/^	static const Larginteger rand(const Larginteger& m = Larginteger::max());$/;"	p	class:E_voting::Larginteger	access:public	signature:(const Larginteger& m = Larginteger::max())
+reverse	Larginteger.h	/^	static val_type                reverse(val_type val);$/;"	p	class:E_voting::Larginteger	access:private	signature:(val_type val)
+set_base	ElGamalBase.cpp	/^void	ElGamalBase::set_base(const key_type& op_base)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_base)
+set_base	ElGamalBase.h	/^	virtual void set_base(const key_type&);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type&)
+set_generator	ElGamalBase.cpp	/^void	ElGamalBase::set_generator(const key_type& op_generator)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_generator)
+set_generator	ElGamalBase.h	/^	virtual void set_generator(const key_type&);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type&)
+set_private_key	ElGamalDecrypter.cpp	/^	void ElGamalDecrypter::set_private_key(const key_type& op_privatekey) $/;"	f	class:E_voting::ElGamalDecrypter	signature:(const key_type& op_privatekey)
+set_private_key	ElGamalDecrypter.h	/^		void set_private_key(const key_type& op_privateKey) ;$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const key_type& op_privateKey)
+set_public_key	ElGamalBase.cpp	/^void	ElGamalBase::set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+set_public_key	ElGamalBase.h	/^	virtual void set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+set_public_key	ElGamalDecrypter.cpp	/^    void ElGamalDecrypter::set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y) $/;"	f	class:E_voting::ElGamalDecrypter	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+set_public_key	ElGamalDecrypter.h	/^		virtual void set_public_key(const key_type& op_prime,const key_type& op_generator,const key_type& op_y) ;$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:(const key_type& op_prime,const key_type& op_generator,const key_type& op_y)
+set_y	ElGamalBase.cpp	/^void	ElGamalBase::set_y(const key_type& op_y)$/;"	f	class:E_voting::ElGamalBase	signature:(const key_type& op_y)
+set_y	ElGamalBase.h	/^	virtual void set_y(const key_type&);$/;"	p	class:E_voting::ElGamalBase	access:public	signature:(const key_type&)
+shift_left	Larginteger.cpp	/^Larginteger& Larginteger::shift_left( Larginteger & val, const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:( Larginteger & val, const unsigned int count)
+shift_left	Larginteger.h	/^    static Larginteger&			   shift_left( Larginteger& , unsigned int );$/;"	p	class:E_voting::Larginteger	access:private	signature:( Larginteger& , unsigned int )
+shift_right	Larginteger.cpp	/^Larginteger& Larginteger::shift_right(Larginteger & val,const unsigned int count)$/;"	f	class:E_voting::Larginteger	signature:(Larginteger & val,const unsigned int count)
+shift_right	Larginteger.h	/^    static Larginteger&			   shift_right(Larginteger& , unsigned int );$/;"	p	class:E_voting::Larginteger	access:private	signature:(Larginteger& , unsigned int )
+size	Larginteger.h	/^const val_type size =2048;$/;"	m	namespace:E_voting
+toString	GmpWraper.cpp	/^	const std::string GmpWrapper::toString(int base) const$/;"	f	class:E_voting::GmpWrapper	signature:(int base) const
+toString	GmpWraper.h	/^	const std::string toString(int base = 10)const;$/;"	p	class:E_voting::GmpWrapper	access:public	signature:(int base = 10) const
+unit	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::unit = GmpWrapper(1u);$/;"	m	class:E_voting::GmpWrapper	file:
+unit	GmpWraper.h	/^	static const GmpWrapper unit;$/;"	m	class:E_voting::GmpWrapper	access:public
+unit	Larginteger.cpp	/^const  Larginteger Larginteger::unit = Larginteger(1);$/;"	m	class:E_voting::Larginteger	file:
+unit	Larginteger.h	/^	static const Larginteger unit;$/;"	m	class:E_voting::Larginteger	access:public
+val_type	Larginteger.h	/^typedef unsigned long long int val_type;$/;"	t	namespace:E_voting
+writeToDB	DBManager.cpp	/^void DBManager::writeToDB()$/;"	f	class:E_voting::DBManager	signature:()
+writeToDB	DBManager.h	/^    void  writeToDB();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+zero	GmpWraper.cpp	/^	const GmpWrapper GmpWrapper::zero = GmpWrapper(0ul);$/;"	m	class:E_voting::GmpWrapper	file:
+zero	GmpWraper.h	/^	static const GmpWrapper zero;$/;"	m	class:E_voting::GmpWrapper	access:public
+zero	Larginteger.cpp	/^const  Larginteger Larginteger::zero = Larginteger(0);$/;"	m	class:E_voting::Larginteger	file:
+zero	Larginteger.h	/^	static const Larginteger zero; $/;"	m	class:E_voting::Larginteger	access:public
+~DBManager	DBManager.h	/^    ~DBManager();$/;"	p	class:E_voting::DBManager	access:public	signature:()
+~ElGamalBase	ElGamalBase.cpp	/^	ElGamalBase::~ElGamalBase()$/;"	f	class:E_voting::ElGamalBase	signature:()
+~ElGamalBase	ElGamalBase.h	/^	virtual ~ElGamalBase();$/;"	p	class:E_voting::ElGamalBase	access:public	signature:()
+~ElGamalDecrypter	ElGamalDecrypter.cpp	/^	ElGamalDecrypter::~ElGamalDecrypter()$/;"	f	class:E_voting::ElGamalDecrypter	signature:()
+~ElGamalDecrypter	ElGamalDecrypter.h	/^		~ElGamalDecrypter();$/;"	p	class:E_voting::ElGamalDecrypter	access:public	signature:()
+~GmpWrapper	GmpWraper.cpp	/^	GmpWrapper::~GmpWrapper()$/;"	f	class:E_voting::GmpWrapper	signature:()
+~GmpWrapper	GmpWraper.h	/^	~GmpWrapper();$/;"	p	class:E_voting::GmpWrapper	access:public	signature:()
+~Larginteger	Larginteger.h	/^    ~Larginteger()$/;"	f	class:E_voting::Larginteger	access:public	signature:()
